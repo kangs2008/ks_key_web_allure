@@ -1,0 +1,311 @@
+{
+  "uid" : "954762fc075b4a1f",
+  "name" : "test_login[data0]",
+  "fullName" : "TestCases.Login.test_baidu.TestLogin#test_login",
+  "historyId" : "f908aac11843ade8edb47c43ceeede51",
+  "time" : {
+    "start" : 1632140183459,
+    "stop" : 1632140184925,
+    "duration" : 1466
+  },
+  "description" : "FILE SHEET： t_接  \n\nFILE NAME： test_apidata.xlsx  \n\nFILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx",
+  "descriptionHtml" : "<p>FILE SHEET： t_接</p>\n<p>FILE NAME： test_apidata.xlsx</p>\n<p>FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'BaiduPage' object has no attribute ''",
+  "statusTrace" : "self = <TestCases.Login.test_baidu.TestLogin object at 0x000002ACBCC4DBC8>\ndata = {'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet'... '', 'input': '', 'method': '', ...}, {'exec': '4', 'expect': '', 'input': '', 'method': '', ...}], 'sheetname': 't_接'}\nstart_session = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"63b1184bfed3997cedf6812a4a67bc2d\")>\n\n    @allure.story(\"测试login 方法，baidu\")\n    @pytest.mark.parametrize('data', get_excel_data())\n    def test_login(self, data, start_session):\n        \"\"\"描述！！！！\"\"\"\n        logger.info(f\" 执行 {self.__class__.__name__} 测试套件Suite \")\n        logger.info(f\" 执行 {sys._getframe().f_code.co_name} 测试用例Case \")\n        logger.info(f\" 执行 {data}\")\n    \n>       data_value(start_session, data)\n\nTestCases\\Login\\test_baidu.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nstart_session = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"63b1184bfed3997cedf6812a4a67bc2d\")>\ndata = {'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet'... '', 'input': '', 'method': '', ...}, {'exec': '4', 'expect': '', 'input': '', 'method': '', ...}], 'sheetname': 't_接'}\n\n    def data_value(start_session, data):\n        allure.dynamic.feature(f'API_interface_test')\n        allure.dynamic.story(f'{list(data.values())[1]}<>{list(data.values())[0]}')\n        allure.dynamic.description(f'FILE SHEET： {list(data.values())[0]}  \\n\\nFILE NAME： {list(data.values())[1]}  \\n\\nFILE PATH： {list(data.values())[2]}')\n        logger.info(f'API_interface_test')\n        logger.info(f'FILE SHEET： {list(data.values())[0]}  FILE NAME： {list(data.values())[1]}  FILE PATH： {list(data.values())[2]}')\n        logger.info(list(data.values())[2])\n    \n        for va in list(data.values())[3]:\n    \n            allurestep(va) # tilte only\n            __t_data(va)\n    \n>           func = getattr(BaiduPage(start_session), va['method'])\nE           AttributeError: 'BaiduPage' object has no attribute ''\n\nTestCases\\web_data_keywords.py:33: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1632140179597,
+      "stop" : 1632140183451,
+      "duration" : 3854
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "report",
+    "time" : {
+      "start" : 1632140179527,
+      "stop" : 1632140179597,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1632140179337,
+      "stop" : 1632140179527,
+      "duration" : 190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "FILE SHEET： t_接  \n\nFILE NAME： test_apidata.xlsx  \n\nFILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'BaiduPage' object has no attribute ''",
+    "statusTrace" : "self = <TestCases.Login.test_baidu.TestLogin object at 0x000002ACBCC4DBC8>\ndata = {'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet'... '', 'input': '', 'method': '', ...}, {'exec': '4', 'expect': '', 'input': '', 'method': '', ...}], 'sheetname': 't_接'}\nstart_session = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"63b1184bfed3997cedf6812a4a67bc2d\")>\n\n    @allure.story(\"测试login 方法，baidu\")\n    @pytest.mark.parametrize('data', get_excel_data())\n    def test_login(self, data, start_session):\n        \"\"\"描述！！！！\"\"\"\n        logger.info(f\" 执行 {self.__class__.__name__} 测试套件Suite \")\n        logger.info(f\" 执行 {sys._getframe().f_code.co_name} 测试用例Case \")\n        logger.info(f\" 执行 {data}\")\n    \n>       data_value(start_session, data)\n\nTestCases\\Login\\test_baidu.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nstart_session = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"63b1184bfed3997cedf6812a4a67bc2d\")>\ndata = {'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet'... '', 'input': '', 'method': '', ...}, {'exec': '4', 'expect': '', 'input': '', 'method': '', ...}], 'sheetname': 't_接'}\n\n    def data_value(start_session, data):\n        allure.dynamic.feature(f'API_interface_test')\n        allure.dynamic.story(f'{list(data.values())[1]}<>{list(data.values())[0]}')\n        allure.dynamic.description(f'FILE SHEET： {list(data.values())[0]}  \\n\\nFILE NAME： {list(data.values())[1]}  \\n\\nFILE PATH： {list(data.values())[2]}')\n        logger.info(f'API_interface_test')\n        logger.info(f'FILE SHEET： {list(data.values())[0]}  FILE NAME： {list(data.values())[1]}  FILE PATH： {list(data.values())[2]}')\n        logger.info(list(data.values())[2])\n    \n        for va in list(data.values())[3]:\n    \n            allurestep(va) # tilte only\n            __t_data(va)\n    \n>           func = getattr(BaiduPage(start_session), va['method'])\nE           AttributeError: 'BaiduPage' object has no attribute ''\n\nTestCases\\web_data_keywords.py:33: AttributeError",
+    "steps" : [ {
+      "name" : "Test title：标题",
+      "time" : {
+        "start" : 1632140183459,
+        "stop" : 1632140183467,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "[20:16:23.618][BaiduPage.get_news_text][news_link_loc|新闻]('xpath', '//*[@id=\"s-top-left\"]/a[1]')return value:[新闻]",
+      "time" : {
+        "start" : 1632140183619,
+        "stop" : 1632140183841,
+        "duration" : 222
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a49c4443a0bc349",
+        "name" : "news_link_loc",
+        "source" : "8a49c4443a0bc349.png",
+        "type" : "image/png",
+        "size" : 95978
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Test title：首页检索",
+      "time" : {
+        "start" : 1632140183841,
+        "stop" : 1632140183841,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "登录Method",
+      "time" : {
+        "start" : 1632140183841,
+        "stop" : 1632140184925,
+        "duration" : 1084
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "[20:16:23.840][BaiduPage.search]",
+        "time" : {
+          "start" : 1632140183841,
+          "stop" : 1632140183841,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "[20:16:24.022][BaiduPage.text_input][search_text_loc|首页输入框]('xpath', '//*[@id=\"kw\"]')input:[1]",
+        "time" : {
+          "start" : 1632140184022,
+          "stop" : 1632140184646,
+          "duration" : 624
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c8bcd0d161335ed3",
+          "name" : "search_text_loc",
+          "source" : "c8bcd0d161335ed3.png",
+          "type" : "image/png",
+          "size" : 58023
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "[20:16:24.924][BaiduPage.search_btn][search_btn_loc|百度一下]('xpath', '//*[@id=\"su\"]')",
+        "time" : {
+          "start" : 1632140184925,
+          "stop" : 1632140184925,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'1'"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "72cb75b75838382f",
+      "name" : "异常图",
+      "source" : "72cb75b75838382f.png",
+      "type" : "image/png",
+      "size" : 450508
+    }, {
+      "uid" : "a423cf79e8ea3582",
+      "name" : "log",
+      "source" : "a423cf79e8ea3582.txt",
+      "type" : "text/plain",
+      "size" : 4351
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1632140187454,
+      "stop" : 1632140189767,
+      "duration" : 2313
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "report::0",
+    "time" : {
+      "start" : 1632140189767,
+      "stop" : 1632140194810,
+      "duration" : 5043
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "API_interface_test"
+  }, {
+    "name" : "story",
+    "value" : "test_apidata.xlsx<>t_接"
+  }, {
+    "name" : "feature",
+    "value" : "login 异常测试用例，feature"
+  }, {
+    "name" : "story",
+    "value" : "测试login 方法，baidu"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('start_session')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases.Login"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V8HO8M4"
+  }, {
+    "name" : "thread",
+    "value" : "8824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.Login.test_baidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "72c6f0603238669b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'BaiduPage' object has no attribute ''",
+      "time" : {
+        "start" : 1632140136913,
+        "stop" : 1632140137963,
+        "duration" : 1050
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('start_session')" ]
+  },
+  "source" : "954762fc075b4a1f.json",
+  "parameterValues" : [ "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}" ]
+}

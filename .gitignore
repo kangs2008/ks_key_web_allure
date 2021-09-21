@@ -1,0 +1,11 @@
+/.idea
+/.pytest_cache
+/venv
+/temp
+/__pycache__
+*.pyc
+__pycache__
+__*pycache__
+PIC/
+Report/
+Report_allure/2021-09-19_allure

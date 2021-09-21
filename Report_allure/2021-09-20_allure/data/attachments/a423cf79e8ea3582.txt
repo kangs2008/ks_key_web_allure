@@ -1,0 +1,34 @@
+INFO     LOG:conftest.py:45 custom addopts for the report folder:[report],param[--report],value[2021-09-20]
+INFO     LOG:conftest.py:46 the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-20_allure
+INFO     LOG:conftest.py:37 ========== open browser ===========
+INFO     LOG:test_baidu.py:20  执行 TestLogin 测试套件Suite 
+INFO     LOG:test_baidu.py:21  执行 test_login 测试用例Case 
+INFO     LOG:test_baidu.py:22  执行 {'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}
+INFO     LOG:web_data_keywords.py:24 API_interface_test
+INFO     LOG:web_data_keywords.py:25 FILE SHEET： t_接  FILE NAME： test_apidata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx
+INFO     LOG:web_data_keywords.py:26 D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx
+INFO     LOG:web_data_keywords.py:46 Test title：标题
+INFO     LOG:web_data_keywords.py:62 Test datas:【title:[标题], method:[get_news_text], input:[1], request_data:[]】
+INFO     LOG:web_data_keywords.py:34 <bound method BaiduPage.get_news_text of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002ACBCD31448>>
+INFO     LOG:web_data_keywords.py:35 0000000000000000000000000000000000000000000000000000000
+INFO     LOG:basepage.py:128 [BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210920 20:16:23.466/00.071s
+INFO     LOG:basepage.py:67 [save_capture_paint]ks_key_web_allure\PIC\2021-09-20_20-16-23_news_link_loc.png TIME:20210920 20:16:23.618/00.221
+INFO     LOG:basepage.py:385 [BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210920 20:16:23.602/00.237
+INFO     LOG:web_data_keywords.py:37 新闻
+INFO     LOG:web_data_keywords.py:46 Test title：首页检索
+INFO     LOG:web_data_keywords.py:62 Test datas:【title:[首页检索], method:[search], input:[], request_data:[]】
+INFO     LOG:web_data_keywords.py:34 <bound method BaiduPage.search of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002ACBCD31188>>
+INFO     LOG:web_data_keywords.py:35 0000000000000000000000000000000000000000000000000000000
+INFO     LOG:basepage.py:128 [BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210920 20:16:23.840/00.035s
+INFO     LOG:basepage.py:67 [save_capture_paint]ks_key_web_allure\PIC\2021-09-20_20-16-24_search_text_loc.png TIME:20210920 20:16:24.022/00.613
+INFO     LOG:basepage.py:278 [BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<1> TIME:20210920 20:16:23.905/00.740s
+INFO     LOG:basepage.py:128 [BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210920 20:16:24.646/00.049s
+INFO     LOG:basepage.py:348 [BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210920 20:16:24.755/00.168s
+INFO     LOG:web_data_keywords.py:37 None
+INFO     LOG:web_data_keywords.py:62 Test datas:【title:[], method:[], input:[], request_data:[]】
+INFO     LOG:conftest.py:44 ========== close browser ===========
+INFO     LOG:conftest.py:52 os.system :allure generate ./temp -o ./Report --clean
+INFO     LOG:conftest.py:57 file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-20_allure
+INFO     LOG:conftest.py:61 ------------------------
+INFO     LOG:conftest.py:62 Usage time 0:00:15
+INFO     LOG:conftest.py:63 ------------------------

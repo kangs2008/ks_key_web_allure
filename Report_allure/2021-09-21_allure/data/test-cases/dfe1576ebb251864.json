@@ -1,0 +1,191 @@
+{
+  "uid" : "dfe1576ebb251864",
+  "name" : "test_login[data0]",
+  "fullName" : "TestCases.Login.test_baidu.TestLogin#test_login",
+  "historyId" : "f908aac11843ade8edb47c43ceeede51",
+  "time" : {
+    "start" : 1632186903206,
+    "stop" : 1632186903208,
+    "duration" : 2
+  },
+  "description" : "FILE SHEET： t_接  \n\nFILE NAME： test_webdata.xlsx  \n\nFILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx",
+  "descriptionHtml" : "<p>FILE SHEET： t_接</p>\n<p>FILE NAME： test_webdata.xlsx</p>\n<p>FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx</p>\n",
+  "status" : "broken",
+  "statusMessage" : "UnboundLocalError: local variable 'input_text' referenced before assignment",
+  "statusTrace" : "self = <TestCases.Login.test_baidu.TestLogin object at 0x000002BE2EE0F7C8>\ndata = {'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet'... 'input_text': '', ...}, {'capture': '1', 'exec': '3', 'expect': '', 'input_text': 'python', ...}], 'sheetname': 't_接'}\nstart_session = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"74b872f7a841c20f6bd5c85c71f838e1\")>\n\n    @allure.story(\"测试login 方法，baidu\")\n    @pytest.mark.parametrize('data', get_excel_data())\n    def test_login(self, data, start_session):\n        \"\"\"描述！！！！\"\"\"\n        logger.info(f\" 执行 {self.__class__.__name__} 测试套件Suite \")\n        logger.info(f\" 执行 {sys._getframe().f_code.co_name} 测试用例Case \")\n        logger.info(f\" 执行 {data}\")\n    \n>       return_value =  data_value(start_session, data)\n\nTestCases\\Login\\test_baidu.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nTestCases\\web_data_keywords.py:30: in data_value\n    __t_data(va)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nva = {'capture': '1', 'exec': '1', 'expect': '', 'input_text': '', ...}\n\n    def __t_data(va):\n        title = ''\n        method = ''\n        input = ''\n        request_data = ''\n        status = ''\n    \n        if va['title'] != '':\n            title = va['title']\n        if va['page'] != '':\n            page = va['page']\n        if va['method'] != '':\n            method = va['method']\n        if va['input_text'] != '':\n            input_text = va['input_text']\n        if va['return_values'] != '':\n            return_values = va['return_values']\n        if va['expect'] != '':\n            expect = va['expect']\n>       logger.info(f\"Test datas:【title:[{title}], page:[{page}], method:[{method}], input_text:[{input_text}], return_values:[{return_values}], expect:[{expect}]】\")\nE       UnboundLocalError: local variable 'input_text' referenced before assignment\n\nTestCases\\web_data_keywords.py:67: UnboundLocalError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "report",
+    "time" : {
+      "start" : 1632186899290,
+      "stop" : 1632186899290,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1632186899200,
+      "stop" : 1632186899290,
+      "duration" : 90
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_session",
+    "time" : {
+      "start" : 1632186899290,
+      "stop" : 1632186903204,
+      "duration" : 3914
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "FILE SHEET： t_接  \n\nFILE NAME： test_webdata.xlsx  \n\nFILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx",
+    "status" : "broken",
+    "statusMessage" : "UnboundLocalError: local variable 'input_text' referenced before assignment",
+    "statusTrace" : "self = <TestCases.Login.test_baidu.TestLogin object at 0x000002BE2EE0F7C8>\ndata = {'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet'... 'input_text': '', ...}, {'capture': '1', 'exec': '3', 'expect': '', 'input_text': 'python', ...}], 'sheetname': 't_接'}\nstart_session = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"74b872f7a841c20f6bd5c85c71f838e1\")>\n\n    @allure.story(\"测试login 方法，baidu\")\n    @pytest.mark.parametrize('data', get_excel_data())\n    def test_login(self, data, start_session):\n        \"\"\"描述！！！！\"\"\"\n        logger.info(f\" 执行 {self.__class__.__name__} 测试套件Suite \")\n        logger.info(f\" 执行 {sys._getframe().f_code.co_name} 测试用例Case \")\n        logger.info(f\" 执行 {data}\")\n    \n>       return_value =  data_value(start_session, data)\n\nTestCases\\Login\\test_baidu.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nTestCases\\web_data_keywords.py:30: in data_value\n    __t_data(va)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nva = {'capture': '1', 'exec': '1', 'expect': '', 'input_text': '', ...}\n\n    def __t_data(va):\n        title = ''\n        method = ''\n        input = ''\n        request_data = ''\n        status = ''\n    \n        if va['title'] != '':\n            title = va['title']\n        if va['page'] != '':\n            page = va['page']\n        if va['method'] != '':\n            method = va['method']\n        if va['input_text'] != '':\n            input_text = va['input_text']\n        if va['return_values'] != '':\n            return_values = va['return_values']\n        if va['expect'] != '':\n            expect = va['expect']\n>       logger.info(f\"Test datas:【title:[{title}], page:[{page}], method:[{method}], input_text:[{input_text}], return_values:[{return_values}], expect:[{expect}]】\")\nE       UnboundLocalError: local variable 'input_text' referenced before assignment\n\nTestCases\\web_data_keywords.py:67: UnboundLocalError",
+    "steps" : [ {
+      "name" : "Test title：标题",
+      "time" : {
+        "start" : 1632186903208,
+        "stop" : 1632186903208,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "c8934d8daf65dec",
+      "name" : "异常图",
+      "source" : "c8934d8daf65dec.png",
+      "type" : "image/png",
+      "size" : 126624
+    }, {
+      "uid" : "9d0bf3eedf7f3b09",
+      "name" : "log",
+      "source" : "9d0bf3eedf7f3b09.txt",
+      "type" : "text/plain",
+      "size" : 1886
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "report::0",
+    "time" : {
+      "start" : 1632186905916,
+      "stop" : 1632186910429,
+      "duration" : 4513
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "start_session::0",
+    "time" : {
+      "start" : 1632186903599,
+      "stop" : 1632186905916,
+      "duration" : 2317
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "API_interface_test"
+  }, {
+    "name" : "story",
+    "value" : "test_webdata.xlsx<>t_接"
+  }, {
+    "name" : "story",
+    "value" : "测试login 方法，baidu"
+  }, {
+    "name" : "feature",
+    "value" : "login 异常测试用例，feature"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('start_session')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases.Login"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V8HO8M4"
+  }, {
+    "name" : "thread",
+    "value" : "1616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.Login.test_baidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('start_session')" ]
+  },
+  "source" : "dfe1576ebb251864.json",
+  "parameterValues" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+}

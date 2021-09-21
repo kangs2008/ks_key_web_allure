@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Sep 20 20:16:23 CST 2021","Mon Sep 20 20:16:24 CST 2021","1466","TestCases.Login","test_baidu","TestLogin","","","test_login[data0]","FILE SHEET： t_接  
+
+FILE NAME： test_apidata.xlsx  
+
+FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx"

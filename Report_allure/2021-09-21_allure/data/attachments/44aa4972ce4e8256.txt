@@ -1,0 +1,23 @@
+INFO     LOG:conftest.py:45 custom addopts for the report folder:[report],param[--report],value[2021-09-21]
+INFO     LOG:conftest.py:46 the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-21_allure
+INFO     LOG:conftest.py:37 ========== open browser ===========
+INFO     LOG:test_baidu.py:20  执行 TestLogin 测试套件Suite 
+INFO     LOG:test_baidu.py:21  执行 test_login 测试用例Case 
+INFO     LOG:test_baidu.py:22  执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}
+INFO     LOG:web_data_keywords.py:23 API_interface_test
+INFO     LOG:web_data_keywords.py:24 FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+INFO     LOG:web_data_keywords.py:25 D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+INFO     LOG:web_data_keywords.py:47 Test title：标题
+INFO     LOG:web_data_keywords.py:68 Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], input_text:[], return_values:[news], expect:[]】
+INFO     LOG:web_data_keywords.py:33 <bound method BaiduPage.get_news_text of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000001EAA87210C8>>
+INFO     LOG:web_data_keywords.py:34 0000000000000000000000000000000000000000000000000000000
+INFO     LOG:basepage.py:144 [BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210921 09:19:50.622/00.090s
+INFO     LOG:basepage.py:83 [save_capture_paint]ks_key_web_allure\PIC\2021-09-21_09-19-50_news_link_loc.png TIME:20210921 09:19:50.764/00.317
+INFO     LOG:basepage.py:401 [BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210921 09:19:50.747/00.334
+INFO     LOG:web_data_keywords.py:36 新闻
+INFO     LOG:conftest.py:44 ========== close browser ===========
+INFO     LOG:conftest.py:52 os.system :allure generate ./temp -o ./Report --clean
+INFO     LOG:conftest.py:57 file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-21_allure
+INFO     LOG:conftest.py:61 ------------------------
+INFO     LOG:conftest.py:62 Usage time 0:00:11
+INFO     LOG:conftest.py:63 ------------------------

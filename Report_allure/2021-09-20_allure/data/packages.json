@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases.Login.test_baidu",
+    "children" : [ {
+      "name" : "test_login[data0]",
+      "uid" : "954762fc075b4a1f",
+      "parentUid" : "a43a44eb30fa813f9b1a3b816613a842",
+      "status" : "broken",
+      "time" : {
+        "start" : 1632140183459,
+        "stop" : 1632140184925,
+        "duration" : 1466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}" ]
+    } ],
+    "uid" : "TestCases.Login.test_baidu"
+  } ]
+}

@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "API_interface_test",
+    "children" : [ {
+      "name" : "test_apidata.xlsx<>t_接",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "954762fc075b4a1f",
+        "parentUid" : "e60f18692703e999ad43a3d099d1012f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632140183459,
+          "stop" : 1632140184925,
+          "duration" : 1466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}" ]
+      } ],
+      "uid" : "e60f18692703e999ad43a3d099d1012f"
+    }, {
+      "name" : "测试login 方法，baidu",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "954762fc075b4a1f",
+        "parentUid" : "23dc5ee5ba1768ff33a5c6c4cb114e09",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632140183459,
+          "stop" : 1632140184925,
+          "duration" : 1466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}" ]
+      } ],
+      "uid" : "23dc5ee5ba1768ff33a5c6c4cb114e09"
+    } ],
+    "uid" : "b4005d23c9fd427872dc36b612765da0"
+  }, {
+    "name" : "login 异常测试用例，feature",
+    "children" : [ {
+      "name" : "test_apidata.xlsx<>t_接",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "954762fc075b4a1f",
+        "parentUid" : "bb955d4f71001ece686525fe5f3cc303",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632140183459,
+          "stop" : 1632140184925,
+          "duration" : 1466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}" ]
+      } ],
+      "uid" : "bb955d4f71001ece686525fe5f3cc303"
+    }, {
+      "name" : "测试login 方法，baidu",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "954762fc075b4a1f",
+        "parentUid" : "90ef9d343421023f95fa44ee23156bc6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632140183459,
+          "stop" : 1632140184925,
+          "duration" : 1466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_apidata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_apidata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'method': 'get_news_text', 'input': '1', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'method': 'search', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '3', 'exec': '3', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}, {'num': '4', 'exec': '4', 'title': '', 'method': '', 'input': '', 'request_data': '', 'status': '', 'expect': '', 'return_code': '', 'return_values': ''}]}" ]
+      } ],
+      "uid" : "90ef9d343421023f95fa44ee23156bc6"
+    } ],
+    "uid" : "eee54c8f4a13b9395e8f40f71ed8ddbd"
+  } ]
+}

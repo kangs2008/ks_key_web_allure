@@ -9,13 +9,13 @@
         "name" : "TestLogin",
         "children" : [ {
           "name" : "test_login[data0]",
-          "uid" : "1b58bcd58dc2022c",
+          "uid" : "e19682840f2bcdf1",
           "parentUid" : "0705819da237d19f485d4d009be9b7a2",
           "status" : "passed",
           "time" : {
-            "start" : 1632190629789,
-            "stop" : 1632190630850,
-            "duration" : 1061
+            "start" : 1632228765797,
+            "stop" : 1632228765818,
+            "duration" : 21
           },
           "flaky" : false,
           "newFailed" : false,

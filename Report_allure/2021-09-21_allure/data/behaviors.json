@@ -7,13 +7,13 @@
       "name" : "test_webdata.xlsx<>t_接",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "1b58bcd58dc2022c",
+        "uid" : "e19682840f2bcdf1",
         "parentUid" : "36ead33d793e5dc5133b2ab3e724aa2c",
         "status" : "passed",
         "time" : {
-          "start" : 1632190629789,
-          "stop" : 1632190630850,
-          "duration" : 1061
+          "start" : 1632228765797,
+          "stop" : 1632228765818,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "111测试login 方法，baidu",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "1b58bcd58dc2022c",
+        "uid" : "e19682840f2bcdf1",
         "parentUid" : "9ce90976f4c8f3f17eacd8f9e46c5ac0",
         "status" : "passed",
         "time" : {
-          "start" : 1632190629789,
-          "stop" : 1632190630850,
-          "duration" : 1061
+          "start" : 1632228765797,
+          "stop" : 1632228765818,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
@@ -45,13 +45,13 @@
       "name" : "test_webdata.xlsx<>t_接",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "1b58bcd58dc2022c",
+        "uid" : "e19682840f2bcdf1",
         "parentUid" : "d9bf3b3242053e048f830aa00ba54b9d",
         "status" : "passed",
         "time" : {
-          "start" : 1632190629789,
-          "stop" : 1632190630850,
-          "duration" : 1061
+          "start" : 1632228765797,
+          "stop" : 1632228765818,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,13 +62,13 @@
       "name" : "111测试login 方法，baidu",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "1b58bcd58dc2022c",
+        "uid" : "e19682840f2bcdf1",
         "parentUid" : "80e1bf9494ed780d9ac373397d8fdfa6",
         "status" : "passed",
         "time" : {
-          "start" : 1632190629789,
-          "stop" : 1632190630850,
-          "duration" : 1061
+          "start" : 1632228765797,
+          "stop" : 1632228765818,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,

@@ -4,44 +4,27 @@
   "children" : [ {
     "name" : "DESKTOP-V8HO8M4",
     "children" : [ {
-      "name" : "7812-MainThread",
+      "name" : "7784-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "af794e81306082b6",
-        "parentUid" : "6f68bf891247d3a97b758ac9fc6145de",
+        "uid" : "c1ba8322d705f848",
+        "parentUid" : "e77bcfc7f55aa1646c6e206c9f43ec12",
         "status" : "passed",
         "time" : {
-          "start" : 1632187190619,
-          "stop" : 1632187191082,
-          "duration" : 463
+          "start" : 1632227424473,
+          "stop" : 1632227424481,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
       } ],
-      "uid" : "6f68bf891247d3a97b758ac9fc6145de"
-    }, {
-      "name" : "14700-MainThread",
-      "children" : [ {
-        "name" : "test_login[data0]",
-        "uid" : "4011076f768ee4d6",
-        "parentUid" : "e14283c49b1d9b7bed7d35355df7d67c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1632188218866,
-          "stop" : 1632188219273,
-          "duration" : 407
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
-      } ],
-      "uid" : "e14283c49b1d9b7bed7d35355df7d67c"
+      "uid" : "e77bcfc7f55aa1646c6e206c9f43ec12"
     }, {
       "name" : "11784-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "15d3574d93fa3645",
+        "uid" : "e2dbc4d020a6610c",
         "parentUid" : "3b3978d800ce8f65daf03b8475e7a2bd",
         "status" : "passed",
         "time" : {
@@ -55,44 +38,27 @@
       } ],
       "uid" : "3b3978d800ce8f65daf03b8475e7a2bd"
     }, {
-      "name" : "2968-MainThread",
+      "name" : "1616-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "9ac07f22c3273eb7",
-        "parentUid" : "75b99507701d8f71e7a164746ac385d1",
-        "status" : "passed",
+        "uid" : "ccab0527ab64dea",
+        "parentUid" : "7da4ec4397526afaa18c137fbc4b4e97",
+        "status" : "broken",
         "time" : {
-          "start" : 1632189486014,
-          "stop" : 1632189486524,
-          "duration" : 510
+          "start" : 1632186903206,
+          "stop" : 1632186903208,
+          "duration" : 2
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
       } ],
-      "uid" : "75b99507701d8f71e7a164746ac385d1"
-    }, {
-      "name" : "8452-MainThread",
-      "children" : [ {
-        "name" : "test_login[data0]",
-        "uid" : "1b58bcd58dc2022c",
-        "parentUid" : "c283d16a74bc034765c80ce250c3e2cc",
-        "status" : "passed",
-        "time" : {
-          "start" : 1632190629789,
-          "stop" : 1632190630850,
-          "duration" : 1061
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
-      } ],
-      "uid" : "c283d16a74bc034765c80ce250c3e2cc"
+      "uid" : "7da4ec4397526afaa18c137fbc4b4e97"
     }, {
       "name" : "10204-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "9cbfc66ef2e169a1",
+        "uid" : "facde6c3ded2ce2e",
         "parentUid" : "bcb2b59b8779413c41fbd5f5b87c3e2a",
         "status" : "broken",
         "time" : {
@@ -106,22 +72,158 @@
       } ],
       "uid" : "bcb2b59b8779413c41fbd5f5b87c3e2a"
     }, {
-      "name" : "1616-MainThread",
+      "name" : "11992-MainThread",
       "children" : [ {
         "name" : "test_login[data0]",
-        "uid" : "dfe1576ebb251864",
-        "parentUid" : "7da4ec4397526afaa18c137fbc4b4e97",
+        "uid" : "4e90958fcc059cc2",
+        "parentUid" : "71ef50bf8628099c9729383cfb6c4041",
         "status" : "broken",
         "time" : {
-          "start" : 1632186903206,
-          "stop" : 1632186903208,
-          "duration" : 2
+          "start" : 1632227521093,
+          "stop" : 1632227521101,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "71ef50bf8628099c9729383cfb6c4041"
+    }, {
+      "name" : "1464-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "e19682840f2bcdf1",
+        "parentUid" : "bb68b06dd209a23e456c13a1ad67874c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632228765797,
+          "stop" : 1632228765818,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "bb68b06dd209a23e456c13a1ad67874c"
+    }, {
+      "name" : "14700-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "f39deffa51a4921",
+        "parentUid" : "e14283c49b1d9b7bed7d35355df7d67c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632188218866,
+          "stop" : 1632188219273,
+          "duration" : 407
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
       } ],
-      "uid" : "7da4ec4397526afaa18c137fbc4b4e97"
+      "uid" : "e14283c49b1d9b7bed7d35355df7d67c"
+    }, {
+      "name" : "8452-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "9a90e540a17323c5",
+        "parentUid" : "c283d16a74bc034765c80ce250c3e2cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632190629789,
+          "stop" : 1632190630850,
+          "duration" : 1061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "c283d16a74bc034765c80ce250c3e2cc"
+    }, {
+      "name" : "8808-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "969eced96089575b",
+        "parentUid" : "6eccfa26e03767041f53037bc744b4e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632190959265,
+          "stop" : 1632190959711,
+          "duration" : 446
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "6eccfa26e03767041f53037bc744b4e1"
+    }, {
+      "name" : "7812-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "5987afd5c894108f",
+        "parentUid" : "6f68bf891247d3a97b758ac9fc6145de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632187190619,
+          "stop" : 1632187191082,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "6f68bf891247d3a97b758ac9fc6145de"
+    }, {
+      "name" : "7448-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "dbdbb33f7633790f",
+        "parentUid" : "32c81bb53fa47294da7c8f30e9b963b0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1632227761256,
+          "stop" : 1632227761256,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "32c81bb53fa47294da7c8f30e9b963b0"
+    }, {
+      "name" : "2968-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "a0da768d31795ff8",
+        "parentUid" : "75b99507701d8f71e7a164746ac385d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632189486014,
+          "stop" : 1632189486524,
+          "duration" : 510
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '{news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "75b99507701d8f71e7a164746ac385d1"
+    }, {
+      "name" : "10252-MainThread",
+      "children" : [ {
+        "name" : "test_login[data0]",
+        "uid" : "d8c942b93bb21b69",
+        "parentUid" : "1fdc7aef2009521ee845f93d8bafd02b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1632227859828,
+          "stop" : 1632227859868,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'return_values': '${news}', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'return_values': '', 'expect': '', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "1fdc7aef2009521ee845f93d8bafd02b"
     } ],
     "uid" : "198725d75e10e48540c358e545372b07"
   } ]

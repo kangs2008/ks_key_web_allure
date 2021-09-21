@@ -1,6 +1,6 @@
 import pytest
 import allure
-import os, sys, re
+import os, sys, re, json
 from Common.handle_logger import logger
 from Common.handle_excel import excel_to_case, load_excel, excel_to_save, Handle_excel
 from Common.handle_config import ReadWriteConfFile
@@ -25,34 +25,57 @@ def data_value(start_session, data):
     logger.info(list(data.values())[2])
     _data = list(data.values())[3]
     logger.info(_data)
-
-
-
-
-
+    # data_list = []
+    # for kv in _data:
+    #     kv[param] = kv.pop('return_values')
+    #     data_list.append(kv)
+    # logger.info(data_list)
     logger.info('aaaaaaaaaaaaaaa')
-
-
 
 
     for va in list(data.values())[3]:
 
         allurestep(va) # tilte only
         __t_data(va)
-        try:
-            func = getattr(BaiduPage(start_session), va['method'])
-            logger.info(func)
-            logger.info('0000000000000000000000000000000000000000000000000000000')
-            return_value = func('1')
-            __get_data(return_value, va)
-            logger.info(return_value)
-            return return_value
-        except:
-            logger.info('444444444')
-        # row_pos = va['exec']
-        # res = func(va, sheet, row_pos, col_pos_c, col_pos_v)
+        re_value = va['return_values']
+        # __new_data(re_value, 'return_values', va)
+        func = getattr(BaiduPage(start_session), va['method'])
+        logger.info(func)
+        logger.info('0000000000000000000000000000000000000000000000000000000')
+        return_value = func('1')
 
-        # logger.info(f'Function return value：{str(res)}')
+
+        _dict = {}
+        _dict = __new_dict(re_value, return_value, _dict)
+        if _dict:
+            __new_data(re_value, va)
+
+        logger.info(f'55555555555555555555{_dict}')
+
+def __new_data(param, _data):
+    pattern = r'[$][{](.*?)[}]'
+    param = param.replace('\'', '"').replace('\n', '').replace('\r', '').replace('\t', '')
+    for key in _data:
+        logger.info(f"----------数据--------------------[{key}]>>{_data[key]}--")
+        res = re.findall(pattern, param)
+        if res:
+            for r in res:
+                if r == key:
+                    param = param.replace('${' + key + '}', str(_data[key]))
+                    logger.info(f"----------数据预处理after:--self.relations[{key}]>>{_data[key]}--")
+    return param
+
+def __new_dict(param, return_value, _dict):
+    param = param.replace('\'', '"').replace('\n', '').replace('\r', '').replace('\t', '')
+    if param is None or param == '':
+        return _dict
+    else:
+        if (param).startswith('${') and (param).endswith('}'):
+            pass
+        else:
+            _dict[param] = return_value
+            logger.info('66666666666666666')
+        return _dict
 
 def __get_relations(param, _data):
     pattern = r'[$][{](.*?)[}]'
@@ -79,7 +102,21 @@ def __get_data(param, _data):
         logger.info(f"----------数据预处理after :--json.loads(paramn)>>{type(paramn)}>>{paramn}--")
         return  paramn
 
+        # try:
+        #     func = getattr(BaiduPage(start_session), va['method'])
+        #     logger.info(func)
+        #     logger.info('0000000000000000000000000000000000000000000000000000000')
+        #     return_value = func('1')
+        #     __get_data(return_value, va)
+        #     logger.info(return_value)
+        #     return return_value
+        # except:
+        #     logger.info('444444444')
+        # logger.info('55555555555555555555')
+        # row_pos = va['exec']
+        # res = func(va, sheet, row_pos, col_pos_c, col_pos_v)
 
+        # logger.info(f'Function return value：{str(res)}')
 
 def allurestep(va):
     if va['title'] != '':

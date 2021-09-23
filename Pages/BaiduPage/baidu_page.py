@@ -19,12 +19,12 @@ class BaiduPage(BasePage):
 
     # 登录
     @allure.step("登录Method")
-    def search(self, text):
+    def search(self, text, pic=''):
         func = self.__class__.__name__ + '.' + sys._getframe().f_code.co_name
         with allure.step(f"[{mTime()}][{func}]"):
             pass
-        self.text_input(text, 1)
-        self.search_btn()
+        self.text_input(text, pic)
+        self.search_btn(pic)
 
     def text_input(self, text, pic=''):
         loc_name = 'search_text_loc'

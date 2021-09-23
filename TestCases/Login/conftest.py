@@ -28,7 +28,7 @@ driver = None
 #     # driver.quit()
 
 
-@pytest.fixture(scope='class', autouse=False)
+@pytest.fixture(scope='function', autouse=False)
 def start_session():
     """
     所有CLASS只打开一次浏览器

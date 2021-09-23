@@ -6,22 +6,26 @@ from Common.handle_logger import logger
 from Pages.BaiduPage.baidu_page import BaiduPage
 from TestCases.web_data_keywords import get_excel_data, data_value
 
-@allure.feature("login 异常测试用例，feature")
+# @allure.feature("login 异常测试用例，feature")
 @pytest.mark.usefixtures('start_session')
 # @pytest.mark.usefixtures('report')
 # @pytest.mark.usefixtures('refresh_page')
-class TestLogin:
+class TestWebUI:
 
     # 异常测试用例
-    @allure.story("111测试login 方法，baidu")
+    # @allure.story("111测试login 方法，baidu")
     @pytest.mark.parametrize('data', get_excel_data())
-    def test_login(self, data, start_session):
+    def test_web_ui(self, data, start_session):
         """描述！！！！"""
+        allure.dynamic.feature(self.__class__.__name__)
+        allure.dynamic.story(f'{sys._getframe().f_code.co_name}<>{list(data.values())[1]}<>{list(data.values())[0]}')
         logger.info(f" 执行 {self.__class__.__name__} 测试套件Suite ")
         logger.info(f" 执行 {sys._getframe().f_code.co_name} 测试用例Case ")
         logger.info(f" 执行 {data}")
 
         return_value = data_value(start_session, data)
+        # baidu = getattr(BaiduPage(start_session), 'assert_equal')
+        # print(baidu)
 
 
         # baidu = BaiduPage(start_session)

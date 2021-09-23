@@ -10,21 +10,7 @@ from Common.setting import PIC_DIR, FREQUENCY, TIMEOUT, RELATIVE_DIR
 from Common.utils import usageTime, mTime
 
 
-def assert_equal(actual, expect):
-    with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
-        assert actual == expect
 
-def assert_not_equal(actual, expect):
-    with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
-        assert actual != expect
-
-def assert_in(actual, expect):
-    with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
-        assert str(expect) in str(actual)
-
-def assert_not_in(actual, expect):
-    with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
-        assert str(expect) not in str(actual)
 
 class BasePage:
     """
@@ -34,6 +20,21 @@ class BasePage:
     def __init__(self, driver):
         self.driver = driver
 
+    def assert_equal(self, actual, expect):
+        with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
+            assert actual == expect
+
+    def assert_not_equal(self, actual, expect):
+        with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
+            assert actual != expect
+
+    def assert_in(self, actual, expect):
+        with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
+            assert str(expect) in str(actual)
+
+    def assert_not_in(self, actual, expect):
+        with allure.step(f"[{mTime()}][{sys._getframe().f_code.co_name}]方法, 实际值：<{actual}>, 期望值：<{expect}>"):
+            assert str(expect) not in str(actual)
     def save_capture(self, loc_name):
         """
         take a screenshot

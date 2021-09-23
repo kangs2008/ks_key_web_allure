@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases.Login.test_baidu",
+    "children" : [ {
+      "name" : "test_web_ui[data0]",
+      "uid" : "8429266a1612e4b6",
+      "parentUid" : "a43a44eb30fa813f9b1a3b816613a842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1632399565175,
+        "stop" : 1632399569318,
+        "duration" : 4143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}" ]
+    } ],
+    "uid" : "TestCases.Login.test_baidu"
+  } ]
+}

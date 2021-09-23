@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 21 20:52:45 CST 2021","Tue Sep 21 20:52:45 CST 2021","21","TestCases.Login","test_baidu","TestLogin","","","test_login[data0]","FILE SHEET： t_接  
-
-FILE NAME： test_webdata.xlsx  
-
-FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx"

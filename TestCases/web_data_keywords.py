@@ -7,6 +7,8 @@ from Common.handle_config import ReadWriteConfFile
 from Common.setting import REPORT_DIR, BASE_DIR
 from Common.basepage import BasePage
 from Pages.BaiduPage.baidu_page import BaiduPage
+from functools import wraps
+
 
 def get_excel_data():
     execfile = ReadWriteConfFile().get_option('exec', 'exec_file_path')
@@ -17,10 +19,9 @@ def get_excel_data():
 
 
 def data_value(start_session, data):
-    allure.dynamic.feature(f'API_interface_test')
-    allure.dynamic.story(f'{list(data.values())[1]}<>{list(data.values())[0]}')
+
     allure.dynamic.description(f'FILE SHEET： {list(data.values())[0]}  \n\nFILE NAME： {list(data.values())[1]}  \n\nFILE PATH： {list(data.values())[2]}')
-    logger.info(f'API_interface_test')
+    # logger.info(f'API_interface_test')
     logger.info(f'FILE SHEET： {list(data.values())[0]}  FILE NAME： {list(data.values())[1]}  FILE PATH： {list(data.values())[2]}')
     logger.info(list(data.values())[2])
     _data = list(data.values())[3]
@@ -32,25 +33,49 @@ def data_value(start_session, data):
     # logger.info(data_list)
     logger.info('aaaaaaaaaaaaaaa')
 
-
+    _dict = {}
     for va in list(data.values())[3]:
 
         allurestep(va) # tilte only
         __t_data(va)
         re_value = va['return_values']
-        # __new_data(re_value, 'return_values', va)
+        re_p= va['parameter']
+
+
         func = getattr(BaiduPage(start_session), va['method'])
-        logger.info(func)
         logger.info('0000000000000000000000000000000000000000000000000000000')
-        return_value = func('1')
-
-
-        _dict = {}
-        _dict = __new_dict(re_value, return_value, _dict)
-        if _dict:
-            __new_data(re_value, va)
+        ps = [_dict.get(p, p) for p in (va['parameter']).split(',')]
+        if ps[0] == '':
+            ps.clear()
+            ps.append('1')
+        else:
+            ps.append('1')
+        logger.info(f'--ps----{ps}')
+        if va['method'].startswith('assert'):
+            func(ps[0], va['expect'])
+        else:
+            return_value = func(*ps)
+            if return_value:
+                _dict[re_value] = return_value
+        logger.info(f'------return_value---------------{return_value}')
 
         logger.info(f'55555555555555555555{_dict}')
+
+def actions(func):
+    @wraps(func)
+    def wrapper(*args, **ksargs):
+        result = func(*args, **ksargs)
+        print('12121212')
+        return wrapper
+@actions
+def get_dict(**ex_args):
+    pass
+
+
+
+
+
+
 
 def __new_data(param, _data):
     pattern = r'[$][{](.*?)[}]'
@@ -126,9 +151,10 @@ def __t_data(va):
     title = ''
     page = ''
     method = ''
-    input_text = ''
+    parameter = ''
     return_values = ''
     expect = ''
+    capture = ''
 
     if va['title'] != '':
         title = va['title']
@@ -136,13 +162,15 @@ def __t_data(va):
         page = va['page']
     if va['method'] != '':
         method = va['method']
-    if va['input_text'] != '':
-        input_text = va['input_text']
+    if va['parameter'] != '':
+        parameter = va['parameter']
     if va['return_values'] != '':
         return_values = va['return_values']
     if va['expect'] != '':
         expect = va['expect']
-    logger.info(f"Test datas:【title:[{title}], page:[{page}], method:[{method}], input_text:[{input_text}], return_values:[{return_values}], expect:[{expect}]】")
+    if va['capture'] != '':
+        capture = va['capture']
+    logger.info(f"Test datas:【title:[{title}], page:[{page}], method:[{method}], parameter:[{parameter}], return_values:[{return_values}], expect:[{expect}], capture:[{capture}]】")
 
 
 #

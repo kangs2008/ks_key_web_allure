@@ -12439,3 +12439,911 @@ Usage time 0:00:01
 2021-09-21 21:09:54,892 LOG INFO conftest.py-61 line：------------------------
 2021-09-21 21:09:54,892 LOG INFO conftest.py-62 line：Usage time 0:00:13
 2021-09-21 21:09:54,892 LOG INFO conftest.py-63 line：------------------------
+2021-09-22 19:56:17,533 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-22]
+2021-09-22 19:56:17,568 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 19:56:17,568 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-22 19:56:22,378 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-22 19:56:22,378 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-22 19:56:22,378 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]}
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-147 line：Test title：标题
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], input_text:[], return_values:[news], expect:[]】
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.get_news_text of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x00000289267B17C8>>
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-48 line：2
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-49 line：('self', 'pic', 'loc_name', 'loc', 'loc_info', 'func', 'value')
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-50 line：0000000000000000000000000000000000000000000000000000000
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[num]>>1--
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[exec]>>1--
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[title]>>标题--
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[page]>>baidu_page--
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[method]>>get_news_text--
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[input_text]>>--
+2021-09-22 19:56:22,386 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[parameter]>>--
+2021-09-22 19:56:22,394 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[return_values]>>news--
+2021-09-22 19:56:22,394 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[expect]>>--
+2021-09-22 19:56:22,394 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[capture]>>1--
+2021-09-22 19:56:22,394 LOG INFO web_data_keywords.py-60 line：55555555555555555555{'news': ''}
+2021-09-22 19:56:22,394 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[], page:[], method:[assert_equal], input_text:[], return_values:[], expect:[新闻]】
+2021-09-22 19:56:23,566 LOG INFO basepage.py-53 line：[save_capture]ks_key_web_allure\PIC\2021-09-22_19-56-23_异常图.png TIME:
+2021-09-22 19:56:29,359 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-22 19:56:37,509 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-22 19:56:37,760 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 19:56:37,760 LOG INFO conftest.py-61 line：------------------------
+2021-09-22 19:56:37,760 LOG INFO conftest.py-62 line：Usage time 0:00:20
+2021-09-22 19:56:37,760 LOG INFO conftest.py-63 line：------------------------
+2021-09-22 20:00:15,863 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-22]
+2021-09-22 20:00:15,863 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 20:00:15,863 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-22 20:00:20,449 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-22 20:00:20,457 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-22 20:00:20,459 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]}
+2021-09-22 20:00:20,459 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-22 20:00:20,459 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 20:00:20,459 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 20:00:20,459 LOG INFO web_data_keywords.py-29 line：[{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]
+2021-09-22 20:00:20,459 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-22 20:00:20,459 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[], page:[], method:[assert_equal], input_text:[], return_values:[], expect:[新闻]】
+2021-09-22 20:00:21,015 LOG INFO basepage.py-53 line：[save_capture]ks_key_web_allure\PIC\2021-09-22_20-00-20_异常图.png TIME:
+2021-09-22 20:00:26,555 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-22 20:00:31,891 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-22 20:00:32,111 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 20:00:32,111 LOG INFO conftest.py-61 line：------------------------
+2021-09-22 20:00:32,111 LOG INFO conftest.py-62 line：Usage time 0:00:16
+2021-09-22 20:00:32,111 LOG INFO conftest.py-63 line：------------------------
+2021-09-22 20:01:18,527 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-22]
+2021-09-22 20:01:18,527 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 20:01:18,527 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-22 20:01:22,549 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-22 20:01:22,549 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-22 20:01:22,549 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]}
+2021-09-22 20:01:22,549 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-29 line：[{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[], page:[], method:[assert_equal], input_text:[], return_values:[], expect:[新闻]】
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-47 line：<bound method BasePage.assert_equal of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x00000201FA099F48>>
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-48 line：3
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-49 line：('self', 'actual', 'expect')
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-50 line：0000000000000000000000000000000000000000000000000000000
+2021-09-22 20:01:22,557 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[num]>>2--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[exec]>>1--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[title]>>--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[page]>>--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[method]>>assert_equal--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[input_text]>>--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[parameter]>>news--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[return_values]>>--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[expect]>>新闻--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[capture]>>--
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-60 line：55555555555555555555{'': ''}
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-147 line：Test title：标题
+2021-09-22 20:01:22,565 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], input_text:[], return_values:[news], expect:[]】
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.get_news_text of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x00000201FA0A4308>>
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-48 line：2
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-49 line：('self', 'pic', 'loc_name', 'loc', 'loc_info', 'func', 'value')
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-50 line：0000000000000000000000000000000000000000000000000000000
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[num]>>3--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[exec]>>2--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[title]>>标题--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[page]>>baidu_page--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[method]>>get_news_text--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[input_text]>>--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[parameter]>>--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[return_values]>>news--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[expect]>>--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[capture]>>1--
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-60 line：55555555555555555555{'': '', 'news': ''}
+2021-09-22 20:01:22,573 LOG INFO web_data_keywords.py-147 line：Test title：首页检索
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], input_text:[python], return_values:[], expect:[]】
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.search of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x00000201FA0A4908>>
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-48 line：0
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-49 line：('a', 'kw', '__tracebackhide__', 'params', 'args')
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-50 line：0000000000000000000000000000000000000000000000000000000
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[num]>>3--
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[exec]>>3--
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[title]>>首页检索--
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[page]>>baidu_page--
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[method]>>search--
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[input_text]>>python--
+2021-09-22 20:01:22,583 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[parameter]>>--
+2021-09-22 20:01:22,603 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[return_values]>>--
+2021-09-22 20:01:22,603 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[expect]>>--
+2021-09-22 20:01:22,603 LOG INFO web_data_keywords.py-82 line：----------数据--------------------[capture]>>1--
+2021-09-22 20:01:22,603 LOG INFO web_data_keywords.py-60 line：55555555555555555555{'': '', 'news': ''}
+2021-09-22 20:01:25,658 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-22 20:01:31,589 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-22 20:01:31,990 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 20:01:31,990 LOG INFO conftest.py-61 line：------------------------
+2021-09-22 20:01:31,990 LOG INFO conftest.py-62 line：Usage time 0:00:13
+2021-09-22 20:01:31,990 LOG INFO conftest.py-63 line：------------------------
+2021-09-22 20:02:43,167 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-22]
+2021-09-22 20:02:43,167 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 20:02:43,167 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-22 20:02:47,812 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-22 20:02:47,812 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-22 20:02:47,812 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]}
+2021-09-22 20:02:47,812 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-22 20:02:47,812 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 20:02:47,812 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-22 20:02:47,812 LOG INFO web_data_keywords.py-29 line：[{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]
+2021-09-22 20:02:47,812 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-22 20:02:47,812 LOG INFO web_data_keywords.py-168 line：Test datas:【title:[], page:[], method:[assert_equal], input_text:[], return_values:[], expect:[新闻]】
+2021-09-22 20:02:48,275 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-22_20-02-47_异常图.png TIME:
+2021-09-22 20:02:50,558 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-22 20:02:56,039 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-22 20:02:56,319 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 20:02:56,319 LOG INFO conftest.py-61 line：------------------------
+2021-09-22 20:02:56,319 LOG INFO conftest.py-62 line：Usage time 0:00:13
+2021-09-22 20:02:56,319 LOG INFO conftest.py-63 line：------------------------
+2021-09-22 21:00:20,095 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-22]
+2021-09-22 21:00:20,095 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 21:00:20,095 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-22 21:00:25,068 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-22 21:00:25,068 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-22 21:00:25,068 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]}
+2021-09-22 21:00:25,617 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-22_21-00-25_异常图.png TIME:
+2021-09-22 21:00:29,439 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-22 21:00:35,329 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-22 21:00:35,569 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 21:00:35,569 LOG INFO conftest.py-61 line：------------------------
+2021-09-22 21:00:35,569 LOG INFO conftest.py-62 line：Usage time 0:00:15
+2021-09-22 21:00:35,569 LOG INFO conftest.py-63 line：------------------------
+2021-09-22 21:01:03,563 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-22]
+2021-09-22 21:01:03,563 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 21:01:03,563 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-22 21:01:07,570 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-22 21:01:07,570 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-22 21:01:07,570 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '2', 'exec': '1', 'title': '', 'page': '', 'method': 'assert_equal', 'input_text': '', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}, {'num': '3', 'exec': '2', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'input_text': '', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'input_text': 'python', 'parameter': '', 'return_values': '', 'expect': '', 'capture': '1'}]}
+2021-09-22 21:01:09,880 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-22 21:01:15,125 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-22 21:01:15,362 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-22_allure
+2021-09-22 21:01:15,362 LOG INFO conftest.py-61 line：------------------------
+2021-09-22 21:01:15,362 LOG INFO conftest.py-62 line：Usage time 0:00:11
+2021-09-22 21:01:15,362 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:38:02,144 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:38:02,204 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:38:02,204 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:38:06,609 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:38:06,609 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:38:06,609 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:38:06,609 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:38:06,610 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:38:06,610 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:38:06,610 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:38:06,610 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:38:06,611 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:38:06,611 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:38:06,611 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.get_news_text of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002536E806488>>
+2021-09-23 19:38:06,611 LOG INFO web_data_keywords.py-48 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:38:06,648 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:38:06.611/00.037s
+2021-09-23 19:38:07,013 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-38-06_news_link_loc.png TIME:20210923 19:38:06.747/00.266
+2021-09-23 19:38:07,015 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:38:06.708/00.307
+2021-09-23 19:38:07,015 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:38:07,015 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:38:07,016 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:38:07,016 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.search of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002536E8036C8>>
+2021-09-23 19:38:07,016 LOG INFO web_data_keywords.py-48 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:38:07,328 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-38-07_异常图.png TIME:
+2021-09-23 19:38:09,681 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:38:15,643 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:38:15,857 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:38:15,857 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:38:15,857 LOG INFO conftest.py-62 line：Usage time 0:00:13
+2021-09-23 19:38:15,857 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:38:57,553 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:38:57,553 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:38:57,553 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:39:01,662 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:39:01,662 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:39:01,662 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:39:01,662 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:39:01,664 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:39:01,665 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:39:01,666 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:39:01,668 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:39:01,669 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:39:01,669 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:39:01,669 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.get_news_text of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002943B395608>>
+2021-09-23 19:39:01,670 LOG INFO web_data_keywords.py-48 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:39:01,698 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:39:01.670/00.028s
+2021-09-23 19:39:02,147 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-39-01_news_link_loc.png TIME:20210923 19:39:01.788/00.358
+2021-09-23 19:39:02,147 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:39:01.768/00.378
+2021-09-23 19:39:02,147 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:39:02,147 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:39:02,147 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:39:02,147 LOG INFO web_data_keywords.py-47 line：<bound method BaiduPage.search of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002943B2E1048>>
+2021-09-23 19:39:02,147 LOG INFO web_data_keywords.py-48 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:39:02,497 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-39-02_异常图.png TIME:
+2021-09-23 19:39:04,854 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:39:10,620 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:39:10,890 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:39:10,890 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:39:10,890 LOG INFO conftest.py-62 line：Usage time 0:00:13
+2021-09-23 19:39:10,890 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:42:16,335 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:42:16,335 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:42:16,335 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:42:20,409 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:42:20,409 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:42:20,410 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:42:20,410 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:42:20,410 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:42:20,410 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:42:20,410 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:42:20,411 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:42:20,411 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:42:20,411 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:42:20,411 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:42:21,040 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-42-20_异常图.png TIME:
+2021-09-23 19:42:24,174 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:42:29,374 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:42:29,655 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:42:29,655 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:42:29,655 LOG INFO conftest.py-62 line：Usage time 0:00:13
+2021-09-23 19:42:29,655 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:43:36,558 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:43:36,558 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:43:36,558 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:43:40,279 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:43:40,279 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:43:40,279 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:43:40,280 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:43:40,281 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:43:40,281 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:43:40,281 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:43:40,282 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:43:40,282 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:43:40,282 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:43:40,283 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:43:40,283 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:43:40,358 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:43:40.283/00.074s
+2021-09-23 19:43:40,709 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-43-40_news_link_loc.png TIME:20210923 19:43:40.417/00.291
+2021-09-23 19:43:40,710 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:43:40.397/00.313
+2021-09-23 19:43:41,010 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-43-40_异常图.png TIME:
+2021-09-23 19:43:43,366 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:43:49,890 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:43:50,230 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:43:50,230 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:43:50,230 LOG INFO conftest.py-62 line：Usage time 0:00:13
+2021-09-23 19:43:50,230 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:44:15,820 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:44:15,820 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:44:15,820 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:44:19,674 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:44:19,674 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:44:19,674 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:44:19,675 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:44:19,675 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:44:19,675 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:44:19,675 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:44:19,675 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:44:19,675 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:44:19,676 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:44:19,676 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:44:19,676 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:44:19,727 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:44:19.676/00.051s
+2021-09-23 19:44:20,077 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-44-19_news_link_loc.png TIME:20210923 19:44:19.777/00.299
+2021-09-23 19:44:20,078 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:44:19.757/00.320
+2021-09-23 19:44:20,078 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:44:20,078 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:44:20,079 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:44:20,079 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:44:20,079 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:44:20,079 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:44:20,331 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-44-20_异常图.png TIME:
+2021-09-23 19:44:22,691 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:44:28,205 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:44:28,495 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:44:28,495 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:44:28,495 LOG INFO conftest.py-62 line：Usage time 0:00:12
+2021-09-23 19:44:28,495 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:46:05,269 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:46:05,269 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:46:05,269 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:46:09,611 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:46:09,612 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:46:09,612 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:46:09,612 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:46:09,612 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:46:09,613 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:46:09,613 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:46:09,613 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:46:09,613 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:46:09,614 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:46:09,614 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:46:09,614 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:46:09,671 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:46:09.614/00.057s
+2021-09-23 19:46:09,967 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-46-09_news_link_loc.png TIME:20210923 19:46:09.724/00.243
+2021-09-23 19:46:09,967 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:46:09.701/00.266
+2021-09-23 19:46:09,977 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:46:09,977 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:46:09,977 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:46:09,977 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:46:09,977 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:46:09,977 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:46:09,997 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:46:09.977/00.019s
+2021-09-23 19:46:10,498 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-46-10_search_text_loc.png TIME:20210923 19:46:10.194/00.303
+2021-09-23 19:46:10,499 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:46:10.027/00.471s
+2021-09-23 19:46:10,524 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:46:10.500/00.023s
+2021-09-23 19:46:13,184 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-46-10_search_btn_loc.png TIME:20210923 19:46:10.625/02.559
+2021-09-23 19:46:13,184 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:46:10.546/02.638s
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:46:13,184 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:46:16,677 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:46:21,876 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:46:22,176 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:46:22,176 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:46:22,176 LOG INFO conftest.py-62 line：Usage time 0:00:16
+2021-09-23 19:46:22,176 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:48:11,404 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:48:11,404 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:48:11,404 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:48:15,443 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:48:15,443 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:48:15,443 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:48:15,443 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:48:15,443 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:48:15,444 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:48:15,444 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:48:15,444 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:48:15,444 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:48:15,444 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:48:15,445 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:48:15,445 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:48:15,505 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:48:15.445/00.059s
+2021-09-23 19:48:15,834 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-48-15_news_link_loc.png TIME:20210923 19:48:15.555/00.279
+2021-09-23 19:48:15,834 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:48:15.535/00.299
+2021-09-23 19:48:15,834 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:48:15,834 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:48:15,834 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:48:15,834 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:48:15,834 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:48:15,834 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:48:15,864 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:48:15.834/00.030s
+2021-09-23 19:48:16,352 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-48-16_search_text_loc.png TIME:20210923 19:48:16.054/00.298
+2021-09-23 19:48:16,352 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:48:15.884/00.467s
+2021-09-23 19:48:16,372 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:48:16.352/00.020s
+2021-09-23 19:48:16,751 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-48-16_search_btn_loc.png TIME:20210923 19:48:16.489/00.261
+2021-09-23 19:48:16,751 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:48:16.402/00.349s
+2021-09-23 19:48:16,752 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:48:16,752 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:48:16,752 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 19:48:16,753 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:48:16,753 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:48:16,753 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:48:16,753 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:48:19,131 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:48:23,461 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:48:23,541 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:48:23,541 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:48:23,541 LOG INFO conftest.py-62 line：Usage time 0:00:12
+2021-09-23 19:48:23,541 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:48:55,822 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:48:55,822 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:48:55,822 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:48:59,757 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:48:59,758 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:48:59,758 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:48:59,758 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:48:59,758 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:48:59,758 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:48:59,759 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:48:59,759 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:48:59,759 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:48:59,759 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:48:59,760 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:48:59,760 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:48:59,795 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:48:59.760/00.034s
+2021-09-23 19:49:00,156 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-48-59_news_link_loc.png TIME:20210923 19:48:59.868/00.287
+2021-09-23 19:49:00,156 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:48:59.841/00.315
+2021-09-23 19:49:00,157 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:49:00,157 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:49:00,157 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:49:00,157 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:49:00,157 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:49:00,158 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:49:00,185 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:49:00.158/00.027s
+2021-09-23 19:49:00,706 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-49-00_search_text_loc.png TIME:20210923 19:49:00.393/00.312
+2021-09-23 19:49:00,707 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:49:00.205/00.501s
+2021-09-23 19:49:00,724 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:49:00.707/00.017s
+2021-09-23 19:49:03,668 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-49-00_search_btn_loc.png TIME:20210923 19:49:00.816/02.851
+2021-09-23 19:49:03,668 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:49:00.744/02.924s
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:49:03,668 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:49:06,167 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:49:11,587 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:49:11,737 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:49:11,747 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:49:11,747 LOG INFO conftest.py-62 line：Usage time 0:00:15
+2021-09-23 19:49:11,747 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:51:13,960 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:51:13,960 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:51:13,960 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:51:17,984 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:51:17,984 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:51:17,985 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}]}
+2021-09-23 19:51:17,985 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:51:17,986 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:51:17,987 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:51:17,988 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}]
+2021-09-23 19:51:17,989 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:51:17,990 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:51:17,991 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[]】
+2021-09-23 19:51:17,991 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:51:17,991 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:51:18,067 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:51:17.991/00.076s
+2021-09-23 19:51:18,406 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-51-18_news_link_loc.png TIME:20210923 19:51:18.107/00.299
+2021-09-23 19:51:18,406 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:51:18.087/00.319
+2021-09-23 19:51:18,406 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:51:18,406 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:51:18,406 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:51:18,406 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[]】
+2021-09-23 19:51:18,406 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:51:18,406 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:51:18,443 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:51:18.406/00.037s
+2021-09-23 19:51:19,165 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-51-18_search_text_loc.png TIME:20210923 19:51:18.749/00.416
+2021-09-23 19:51:19,165 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:51:18.463/00.702s
+2021-09-23 19:51:19,201 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:51:19.165/00.035s
+2021-09-23 19:51:22,186 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-51-19_search_btn_loc.png TIME:20210923 19:51:19.325/02.860
+2021-09-23 19:51:22,186 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:51:19.220/02.966s
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[]】
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:51:22,186 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:51:22,196 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:51:22,196 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:51:22,196 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接2', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]}
+2021-09-23 19:51:22,196 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:51:22,196 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接2  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:51:22,196 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:51:22,196 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]
+2021-09-23 19:51:22,206 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:51:22,206 LOG INFO web_data_keywords.py-150 line：Test title：标题1
+2021-09-23 19:51:22,206 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题1], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:51:22,206 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:51:22,206 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:51:42,409 LOG ERROR basepage.py-140 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>FAIL. TIME:20210923 19:51:22.206/20.203s
+2021-09-23 19:51:42,409 LOG ERROR basepage.py-217 line：[BaiduPage.get_news_text]<get_ele_pos><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>FAIL. TIME:20210923 19:51:42.409/00s
+2021-09-23 19:51:43,089 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-51-42_异常图.png TIME:
+2021-09-23 19:51:45,490 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:51:50,502 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:51:50,632 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:51:50,632 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:51:50,632 LOG INFO conftest.py-62 line：Usage time 0:00:36
+2021-09-23 19:51:50,632 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:54:14,835 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:54:14,835 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:54:14,835 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:54:18,900 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:54:18,900 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:54:18,902 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}]}
+2021-09-23 19:54:18,906 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:54:18,906 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:54:18,906 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:54:18,906 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}]
+2021-09-23 19:54:18,907 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:54:18,907 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:54:18,907 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[]】
+2021-09-23 19:54:18,908 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:54:18,908 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:54:18,976 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:54:18.908/00.067s
+2021-09-23 19:54:19,456 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-54-19_news_link_loc.png TIME:20210923 19:54:19.074/00.382
+2021-09-23 19:54:19,456 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:54:19.050/00.406
+2021-09-23 19:54:19,456 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:54:19,456 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:54:19,456 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:54:19,456 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[]】
+2021-09-23 19:54:19,456 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:54:19,456 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:54:19,486 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:54:19.456/00.029s
+2021-09-23 19:54:19,991 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-54-19_search_text_loc.png TIME:20210923 19:54:19.694/00.296
+2021-09-23 19:54:19,991 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:54:19.516/00.474s
+2021-09-23 19:54:20,012 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:54:19.991/00.020s
+2021-09-23 19:54:23,990 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-54-20_search_btn_loc.png TIME:20210923 19:54:20.125/03.864
+2021-09-23 19:54:23,990 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:54:20.042/03.948s
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[]】
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:54:23,990 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:54:24,000 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:54:24,000 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:54:24,000 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接2', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]}
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接2  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-150 line：Test title：标题1
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题1], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:54:24,000 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:54:44,352 LOG ERROR basepage.py-140 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>FAIL. TIME:20210923 19:54:24.000/20.352s
+2021-09-23 19:54:44,372 LOG ERROR basepage.py-217 line：[BaiduPage.get_news_text]<get_ele_pos><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>FAIL. TIME:20210923 19:54:44.352/00.019s
+2021-09-23 19:54:45,002 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-54-44_异常图.png TIME:
+2021-09-23 19:54:47,441 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:54:52,462 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:54:52,682 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:54:52,682 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:54:52,682 LOG INFO conftest.py-62 line：Usage time 0:00:37
+2021-09-23 19:54:52,682 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:55:17,496 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:55:17,496 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:55:17,496 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:55:22,134 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:55:22,134 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:55:22,135 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}]}
+2021-09-23 19:55:22,135 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:55:22,135 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:55:22,136 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:55:22,136 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': ''}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': ''}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': ''}]
+2021-09-23 19:55:22,136 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:55:22,136 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:55:22,138 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[]】
+2021-09-23 19:55:22,140 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:55:22,140 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:55:22,231 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:55:22.140/00.091s
+2021-09-23 19:55:22,578 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-55-22_news_link_loc.png TIME:20210923 19:55:22.334/00.243
+2021-09-23 19:55:22,578 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:55:22.299/00.278
+2021-09-23 19:55:22,578 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:55:22,578 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:55:22,578 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:55:22,578 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[]】
+2021-09-23 19:55:22,578 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:55:22,578 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:55:22,608 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:55:22.578/00.030s
+2021-09-23 19:55:23,224 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-55-22_search_text_loc.png TIME:20210923 19:55:22.811/00.413
+2021-09-23 19:55:23,224 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:55:22.640/00.583s
+2021-09-23 19:55:23,254 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:55:23.224/00.029s
+2021-09-23 19:55:26,405 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-55-23_search_btn_loc.png TIME:20210923 19:55:23.360/03.044
+2021-09-23 19:55:26,405 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:55:23.274/03.130s
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[]】
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:55:26,405 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:55:28,803 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:55:28,813 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:55:32,755 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:55:32,755 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:55:32,756 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接2', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]}
+2021-09-23 19:55:32,757 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:55:32,757 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接2  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:55:32,758 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:55:32,759 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]
+2021-09-23 19:55:32,760 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:55:32,760 LOG INFO web_data_keywords.py-150 line：Test title：标题1
+2021-09-23 19:55:32,761 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题1], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:55:32,761 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:55:32,761 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:55:32,825 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:55:32.762/00.062s
+2021-09-23 19:55:33,218 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-55-32_news_link_loc.png TIME:20210923 19:55:32.883/00.335
+2021-09-23 19:55:33,218 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:55:32.866/00.352
+2021-09-23 19:55:33,218 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:55:33,218 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:55:33,218 LOG INFO web_data_keywords.py-150 line：Test title：首页检索1
+2021-09-23 19:55:33,218 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索1], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:55:33,218 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:55:33,218 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:55:33,268 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:55:33.218/00.049s
+2021-09-23 19:55:33,932 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-55-33_search_text_loc.png TIME:20210923 19:55:33.515/00.416
+2021-09-23 19:55:33,932 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:55:33.298/00.634s
+2021-09-23 19:55:33,962 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:55:33.932/00.029s
+2021-09-23 19:55:36,738 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-55-34_search_btn_loc.png TIME:20210923 19:55:34.072/02.666
+2021-09-23 19:55:36,738 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:55:33.982/02.755s
+2021-09-23 19:55:36,738 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:55:36,738 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:55:36,738 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新1闻], capture:[1]】
+2021-09-23 19:55:36,738 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:55:36,738 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:55:37,098 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-55-36_异常图.png TIME:
+2021-09-23 19:55:39,494 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:55:44,135 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:55:44,315 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:55:44,315 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:55:44,315 LOG INFO conftest.py-62 line：Usage time 0:00:26
+2021-09-23 19:55:44,325 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 19:58:02,251 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 19:58:02,251 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:58:02,251 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:58:06,184 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:58:06,185 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:58:06,185 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接2', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]}
+2021-09-23 19:58:06,185 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:58:06,185 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接2  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:58:06,186 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:58:06,186 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]
+2021-09-23 19:58:06,186 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:58:06,186 LOG INFO web_data_keywords.py-150 line：Test title：标题1
+2021-09-23 19:58:06,186 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题1], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:58:06,187 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:58:06,187 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:58:06,252 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:58:06.187/00.064s
+2021-09-23 19:58:06,639 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-58-06_news_link_loc.png TIME:20210923 19:58:06.324/00.314
+2021-09-23 19:58:06,639 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:58:06.295/00.344
+2021-09-23 19:58:06,639 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:58:06,639 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:58:06,639 LOG INFO web_data_keywords.py-150 line：Test title：首页检索1
+2021-09-23 19:58:06,639 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索1], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:58:06,639 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:58:06,639 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:58:06,669 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:58:06.639/00.030s
+2021-09-23 19:58:07,182 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-58-06_search_text_loc.png TIME:20210923 19:58:06.867/00.314
+2021-09-23 19:58:07,183 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:58:06.689/00.493s
+2021-09-23 19:58:07,209 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:58:07.184/00.024s
+2021-09-23 19:58:09,966 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-58-07_search_btn_loc.png TIME:20210923 19:58:07.315/02.651
+2021-09-23 19:58:09,966 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:58:07.233/02.733s
+2021-09-23 19:58:09,966 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:58:09,966 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:58:09,966 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新1闻], capture:[1]】
+2021-09-23 19:58:09,966 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:58:09,966 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:58:10,334 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_19-58-10_异常图.png TIME:
+2021-09-23 19:58:12,726 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:58:12,745 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 19:58:16,549 LOG INFO test_baidu.py-20 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 19:58:16,550 LOG INFO test_baidu.py-21 line： 执行 test_login 测试用例Case 
+2021-09-23 19:58:16,550 LOG INFO test_baidu.py-22 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 19:58:16,550 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 19:58:16,550 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:58:16,550 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 19:58:16,551 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 19:58:16,551 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 19:58:16,551 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 19:58:16,551 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 19:58:16,551 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:58:16,552 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 19:58:16,585 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 19:58:16.552/00.033s
+2021-09-23 19:58:16,926 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-58-16_news_link_loc.png TIME:20210923 19:58:16.628/00.298
+2021-09-23 19:58:16,927 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 19:58:16.611/00.316
+2021-09-23 19:58:16,927 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 19:58:16,927 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:58:16,928 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 19:58:16,928 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 19:58:16,928 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:58:16,928 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 19:58:16,968 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 19:58:16.929/00.038s
+2021-09-23 19:58:17,449 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-58-17_search_text_loc.png TIME:20210923 19:58:17.148/00.300
+2021-09-23 19:58:17,451 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 19:58:16.982/00.468s
+2021-09-23 19:58:17,484 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:58:17.451/00.033s
+2021-09-23 19:58:20,672 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_19-58-17_search_btn_loc.png TIME:20210923 19:58:17.585/03.086
+2021-09-23 19:58:20,672 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 19:58:17.508/03.163s
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 19:58:20,682 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 19:58:23,198 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 19:58:27,989 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 19:58:28,395 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 19:58:28,405 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 19:58:28,405 LOG INFO conftest.py-62 line：Usage time 0:00:26
+2021-09-23 19:58:28,405 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 20:12:00,381 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 20:12:00,381 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:12:00,381 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 20:12:04,336 LOG INFO test_baidu.py-21 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 20:12:04,338 LOG INFO test_baidu.py-22 line： 执行 test_login 测试用例Case 
+2021-09-23 20:12:04,338 LOG INFO test_baidu.py-23 line： 执行 {'sheetname': 't_接2', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]}
+2021-09-23 20:12:04,339 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 20:12:04,339 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接2  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:12:04,339 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:12:04,339 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题1', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索1', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新1闻', 'capture': '1'}]
+2021-09-23 20:12:04,339 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 20:12:04,340 LOG INFO web_data_keywords.py-150 line：Test title：标题1
+2021-09-23 20:12:04,340 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题1], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 20:12:04,341 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:12:04,341 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 20:12:04,390 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 20:12:04.341/00.049s
+2021-09-23 20:12:04,807 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-12-04_news_link_loc.png TIME:20210923 20:12:04.467/00.339
+2021-09-23 20:12:04,807 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 20:12:04.440/00.366
+2021-09-23 20:12:04,815 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 20:12:04,815 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:12:04,816 LOG INFO web_data_keywords.py-150 line：Test title：首页检索1
+2021-09-23 20:12:04,816 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索1], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 20:12:04,817 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:12:04,817 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 20:12:04,868 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 20:12:04.817/00.050s
+2021-09-23 20:12:05,600 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-12-05_search_text_loc.png TIME:20210923 20:12:05.160/00.440
+2021-09-23 20:12:05,600 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 20:12:04.905/00.695s
+2021-09-23 20:12:05,631 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:12:05.600/00.030s
+2021-09-23 20:12:08,327 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-12-05_search_btn_loc.png TIME:20210923 20:12:05.759/02.567
+2021-09-23 20:12:08,328 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:12:05.661/02.666s
+2021-09-23 20:12:08,328 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 20:12:08,328 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:12:08,329 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新1闻], capture:[1]】
+2021-09-23 20:12:08,329 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:12:08,329 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 20:12:08,730 LOG INFO basepage.py-54 line：[save_capture]ks_key_web_allure\PIC\2021-09-23_20-12-08_异常图.png TIME:
+2021-09-23 20:12:11,221 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 20:12:11,239 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 20:12:15,256 LOG INFO test_baidu.py-21 line： 执行 TestLogin 测试套件Suite 
+2021-09-23 20:12:15,256 LOG INFO test_baidu.py-22 line： 执行 test_login 测试用例Case 
+2021-09-23 20:12:15,256 LOG INFO test_baidu.py-23 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 20:12:15,256 LOG INFO web_data_keywords.py-25 line：API_interface_test
+2021-09-23 20:12:15,257 LOG INFO web_data_keywords.py-26 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:12:15,257 LOG INFO web_data_keywords.py-27 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:12:15,257 LOG INFO web_data_keywords.py-29 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 20:12:15,257 LOG INFO web_data_keywords.py-35 line：aaaaaaaaaaaaaaa
+2021-09-23 20:12:15,257 LOG INFO web_data_keywords.py-150 line：Test title：标题
+2021-09-23 20:12:15,258 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 20:12:15,258 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:12:15,258 LOG INFO web_data_keywords.py-54 line：--ps----['1']
+2021-09-23 20:12:15,342 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 20:12:15.258/00.083s
+2021-09-23 20:12:15,873 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-12-15_news_link_loc.png TIME:20210923 20:12:15.557/00.315
+2021-09-23 20:12:15,873 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 20:12:15.527/00.345
+2021-09-23 20:12:15,873 LOG INFO web_data_keywords.py-61 line：------return_value---------------新闻
+2021-09-23 20:12:15,873 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:12:15,873 LOG INFO web_data_keywords.py-150 line：Test title：首页检索
+2021-09-23 20:12:15,873 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 20:12:15,873 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:12:15,873 LOG INFO web_data_keywords.py-54 line：--ps----['python', '1']
+2021-09-23 20:12:15,903 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 20:12:15.873/00.029s
+2021-09-23 20:12:16,399 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-12-16_search_text_loc.png TIME:20210923 20:12:16.086/00.313
+2021-09-23 20:12:16,399 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 20:12:15.933/00.466s
+2021-09-23 20:12:16,419 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:12:16.399/00.019s
+2021-09-23 20:12:19,217 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-12-16_search_btn_loc.png TIME:20210923 20:12:16.525/02.692
+2021-09-23 20:12:19,217 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:12:16.449/02.767s
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-174 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-47 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-54 line：--ps----['新闻', '1']
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-61 line：------return_value---------------None
+2021-09-23 20:12:19,217 LOG INFO web_data_keywords.py-63 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:12:21,613 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 20:12:29,921 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 20:12:30,231 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:12:30,231 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 20:12:30,231 LOG INFO conftest.py-62 line：Usage time 0:00:29
+2021-09-23 20:12:30,231 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 20:17:56,105 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 20:17:56,105 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:17:56,105 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 20:18:00,129 LOG INFO test_baidu.py-22 line： 执行 TestWebUI 测试套件Suite 
+2021-09-23 20:18:00,129 LOG INFO test_baidu.py-23 line： 执行 test_web_ui 测试用例Case 
+2021-09-23 20:18:00,129 LOG INFO test_baidu.py-24 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 20:18:00,129 LOG INFO web_data_keywords.py-25 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:18:00,129 LOG INFO web_data_keywords.py-26 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:18:00,130 LOG INFO web_data_keywords.py-28 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 20:18:00,130 LOG INFO web_data_keywords.py-34 line：aaaaaaaaaaaaaaa
+2021-09-23 20:18:00,130 LOG INFO web_data_keywords.py-149 line：Test title：标题
+2021-09-23 20:18:00,130 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 20:18:00,130 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:18:00,131 LOG INFO web_data_keywords.py-53 line：--ps----['1']
+2021-09-23 20:18:00,165 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 20:18:00.131/00.033s
+2021-09-23 20:18:00,528 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-18-00_news_link_loc.png TIME:20210923 20:18:00.197/00.329
+2021-09-23 20:18:00,528 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 20:18:00.187/00.340
+2021-09-23 20:18:00,529 LOG INFO web_data_keywords.py-60 line：------return_value---------------新闻
+2021-09-23 20:18:00,529 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:18:00,529 LOG INFO web_data_keywords.py-149 line：Test title：首页检索
+2021-09-23 20:18:00,529 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 20:18:00,530 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:18:00,530 LOG INFO web_data_keywords.py-53 line：--ps----['python', '1']
+2021-09-23 20:18:00,562 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 20:18:00.530/00.031s
+2021-09-23 20:18:01,080 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-18-00_search_text_loc.png TIME:20210923 20:18:00.768/00.311
+2021-09-23 20:18:01,081 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 20:18:00.584/00.497s
+2021-09-23 20:18:01,109 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:18:01.082/00.026s
+2021-09-23 20:18:04,142 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-18-01_search_btn_loc.png TIME:20210923 20:18:01.217/02.925
+2021-09-23 20:18:04,143 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:18:01.134/03.009s
+2021-09-23 20:18:04,143 LOG INFO web_data_keywords.py-60 line：------return_value---------------None
+2021-09-23 20:18:04,144 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:18:04,144 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 20:18:04,144 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:18:04,144 LOG INFO web_data_keywords.py-53 line：--ps----['新闻', '1']
+2021-09-23 20:18:04,145 LOG INFO web_data_keywords.py-60 line：------return_value---------------None
+2021-09-23 20:18:04,145 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:18:06,734 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 20:18:11,754 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 20:18:12,154 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:18:12,154 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 20:18:12,154 LOG INFO conftest.py-62 line：Usage time 0:00:16
+2021-09-23 20:18:12,154 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 20:19:21,196 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 20:19:21,196 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:19:21,206 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 20:19:25,175 LOG INFO test_baidu.py-22 line： 执行 TestWebUI 测试套件Suite 
+2021-09-23 20:19:25,175 LOG INFO test_baidu.py-23 line： 执行 test_web_ui 测试用例Case 
+2021-09-23 20:19:25,175 LOG INFO test_baidu.py-24 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 20:19:25,175 LOG INFO web_data_keywords.py-25 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:19:25,175 LOG INFO web_data_keywords.py-26 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:19:25,176 LOG INFO web_data_keywords.py-28 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 20:19:25,176 LOG INFO web_data_keywords.py-34 line：aaaaaaaaaaaaaaa
+2021-09-23 20:19:25,176 LOG INFO web_data_keywords.py-149 line：Test title：标题
+2021-09-23 20:19:25,176 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 20:19:25,177 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:19:25,177 LOG INFO web_data_keywords.py-53 line：--ps----['1']
+2021-09-23 20:19:25,211 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 20:19:25.177/00.033s
+2021-09-23 20:19:25,566 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-19-25_news_link_loc.png TIME:20210923 20:19:25.247/00.318
+2021-09-23 20:19:25,567 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 20:19:25.227/00.339
+2021-09-23 20:19:25,568 LOG INFO web_data_keywords.py-60 line：------return_value---------------新闻
+2021-09-23 20:19:25,568 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:19:25,568 LOG INFO web_data_keywords.py-149 line：Test title：首页检索
+2021-09-23 20:19:25,568 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 20:19:25,569 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:19:25,569 LOG INFO web_data_keywords.py-53 line：--ps----['python', '1']
+2021-09-23 20:19:25,600 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 20:19:25.570/00.030s
+2021-09-23 20:19:26,181 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-19-25_search_text_loc.png TIME:20210923 20:19:25.822/00.358
+2021-09-23 20:19:26,182 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 20:19:25.630/00.551s
+2021-09-23 20:19:26,203 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:19:26.183/00.020s
+2021-09-23 20:19:29,317 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-19-26_search_btn_loc.png TIME:20210923 20:19:26.319/02.998
+2021-09-23 20:19:29,317 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:19:26.223/03.094s
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-60 line：------return_value---------------None
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-53 line：--ps----['新闻', '1']
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-60 line：------return_value---------------None
+2021-09-23 20:19:29,317 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:19:31,923 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 20:19:35,946 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 20:19:36,066 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:19:36,066 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 20:19:36,066 LOG INFO conftest.py-62 line：Usage time 0:00:14
+2021-09-23 20:19:36,066 LOG INFO conftest.py-63 line：------------------------
+2021-09-23 20:19:48,363 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-09-23]
+2021-09-23 20:19:48,363 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:19:48,363 LOG INFO conftest.py-37 line：========== open browser ===========
+2021-09-23 20:19:52,776 LOG INFO test_baidu.py-22 line： 执行 TestWebUI 测试套件Suite 
+2021-09-23 20:19:52,776 LOG INFO test_baidu.py-23 line： 执行 test_web_ui 测试用例Case 
+2021-09-23 20:19:52,777 LOG INFO test_baidu.py-24 line： 执行 {'sheetname': 't_接', 'file': 'test_webdata.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-09-23 20:19:52,777 LOG INFO web_data_keywords.py-25 line：FILE SHEET： t_接  FILE NAME： test_webdata.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:19:52,777 LOG INFO web_data_keywords.py-26 line：D:/desk20201127/ks_key_web_allure/TestCases/test_webdata.xlsx
+2021-09-23 20:19:52,777 LOG INFO web_data_keywords.py-28 line：[{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]
+2021-09-23 20:19:52,777 LOG INFO web_data_keywords.py-34 line：aaaaaaaaaaaaaaa
+2021-09-23 20:19:52,777 LOG INFO web_data_keywords.py-149 line：Test title：标题
+2021-09-23 20:19:52,778 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-09-23 20:19:52,778 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:19:52,778 LOG INFO web_data_keywords.py-53 line：--ps----['1']
+2021-09-23 20:19:52,838 LOG INFO basepage.py-145 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20210923 20:19:52.778/00.060s
+2021-09-23 20:19:53,144 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-19-52_news_link_loc.png TIME:20210923 20:19:52.878/00.265
+2021-09-23 20:19:53,144 LOG INFO basepage.py-402 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20210923 20:19:52.868/00.275
+2021-09-23 20:19:53,144 LOG INFO web_data_keywords.py-60 line：------return_value---------------新闻
+2021-09-23 20:19:53,144 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:19:53,144 LOG INFO web_data_keywords.py-149 line：Test title：首页检索
+2021-09-23 20:19:53,144 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-09-23 20:19:53,144 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:19:53,144 LOG INFO web_data_keywords.py-53 line：--ps----['python', '1']
+2021-09-23 20:19:53,174 LOG INFO basepage.py-145 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20210923 20:19:53.144/00.030s
+2021-09-23 20:19:53,708 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-19-53_search_text_loc.png TIME:20210923 20:19:53.362/00.346
+2021-09-23 20:19:53,708 LOG INFO basepage.py-295 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20210923 20:19:53.194/00.514s
+2021-09-23 20:19:53,738 LOG INFO basepage.py-145 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:19:53.708/00.030s
+2021-09-23 20:19:56,383 LOG INFO basepage.py-84 line：[save_capture_paint]ks_key_web_allure\PIC\2021-09-23_20-19-53_search_btn_loc.png TIME:20210923 20:19:53.847/02.535
+2021-09-23 20:19:56,393 LOG INFO basepage.py-365 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20210923 20:19:53.758/02.634s
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-60 line：------return_value---------------None
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-173 line：Test datas:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-46 line：0000000000000000000000000000000000000000000000000000000
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-53 line：--ps----['新闻', '1']
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-60 line：------return_value---------------None
+2021-09-23 20:19:56,393 LOG INFO web_data_keywords.py-62 line：55555555555555555555{'news': '新闻'}
+2021-09-23 20:19:58,789 LOG INFO conftest.py-44 line：========== close browser ===========
+2021-09-23 20:20:03,293 LOG INFO conftest.py-52 line：os.system :allure generate ./temp -o ./Report --clean
+2021-09-23 20:20:03,403 LOG INFO conftest.py-57 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-09-23_allure
+2021-09-23 20:20:03,403 LOG INFO conftest.py-61 line：------------------------
+2021-09-23 20:20:03,403 LOG INFO conftest.py-62 line：Usage time 0:00:15
+2021-09-23 20:20:03,403 LOG INFO conftest.py-63 line：------------------------

@@ -32,6 +32,24 @@ def pytest_runtest_makereport(item):
         report.extra = extra
 
 
+@pytest.fixture(scope='function', autouse=False)
+def start_session():
+    """
+    所有CLASS只打开一次浏览器
+    :return: driver
+    """
+    logger.info("========== open browser ===========")
+    global driver
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.get('https://www.baidu.com/')
+    yield driver
+    driver.quit()
+    logger.info("========== close browser ===========")
+
+
+
+
 # def create_driver(options=Options()):
 #     # type: () -> webdriver.Remote
 #     if config.arguments and len(config.arguments) > 0:

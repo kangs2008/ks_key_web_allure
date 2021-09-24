@@ -5,6 +5,6 @@ import pytest, os, subprocess
 # os.system(cmd)
 
 
-# pytest.main(['./TestCases/Login/test_baidu.py', '--alluredir', './temp'])
+# pytest.main(['./TestCases/Login/test_web_ui.py', '--alluredir', './temp'])
 
 pytest.main([])  # '--report','re2021'

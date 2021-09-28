@@ -46,16 +46,16 @@ def report(request):
         logger.info(f"the report folder:{mk_report_dir}")
     yield request.config.getoption("--report")
 
-    cmd = 'allure generate ./temp -o ./Report --clean'
-    os.system(cmd)
-
-    logger.info(f"os.system :{cmd}")
+    # cmd = 'allure generate ./temp -o ./Report --clean'
+    # os.system(cmd)
+    # logger.info(f"os.system :{cmd}")
     report_dir = ReadWriteConfFile().get_option('report_dir', 'report_dir_folder')
     copy_to = os.path.join(REPORT_CURRENT_DIR, report_dir)
     file_del(copy_to)
     file_and_folder_copy(REPORT_DIR, f'{copy_to}', [], '')
     logger.info(f"file_and_folder_copy:{copy_to}")
     set_exec_ini('report_dir', 'report_dir_folder', '')
+    set_exec_ini('exec', 'exec_sheet_name', '')
 
     endtime = time.time()
     logger.info(f"------------------------")

@@ -1,6 +1,6 @@
 import pytest
 import allure
-import sys, re
+import sys, re, os
 from Common.handle_logger import logger
 from Pages.BaiduPage.baidu_page import BaiduPage
 from Common.handle_excel import excel_to_case, load_excel, excel_to_save, Handle_excel
@@ -8,10 +8,10 @@ from Common.handle_config import ReadWriteConfFile
 from Common.utils import usageTime, mTime
 
 def get_excel_data():
-    execfile = ReadWriteConfFile().get_option('exec', 'exec_file_path')
-    execst = ReadWriteConfFile().get_option('exec', 'st')
+    # execfile = ReadWriteConfFile().get_option('exec', 'exec_file_path')
+    # execst = ReadWriteConfFile().get_option('exec', 'st')
     execsheet = ReadWriteConfFile().get_option('exec', 'exec_sheet_name')
-    webdata = excel_to_case(execfile, execst, execsheet)
+    webdata = excel_to_case(os.path.dirname(__file__), 'execst', execsheet)
     return webdata
 
 # @allure.feature("login 异常测试用例，feature")
@@ -24,9 +24,9 @@ class TestWebUI:
     @pytest.mark.parametrize('data', get_excel_data())
     def test_web_ui(self, data, start_session):
         """描述！！！！"""
-        allure.dynamic.feature(f'{self.__class__.__name__}.{sys._getframe().f_code.co_name}')
+        allure.dynamic.feature(f'{os.path.basename(__file__)}')
         allure.dynamic.story(f'{list(data.values())[0]}<>{list(data.values())[1]}')
-        logger.info(f" 执行 {self.__class__.__name__}.{sys._getframe().f_code.co_name} 测试套件Suite ")
+        logger.info(f" 执行 {os.path.basename(__file__)}.{self.__class__.__name__}.{sys._getframe().f_code.co_name} 测试套件Suite ")
         logger.info(f" 执行 {list(data.values())[0]} 测试用例Case ")
         logger.info(f" 执行 {data}")
 

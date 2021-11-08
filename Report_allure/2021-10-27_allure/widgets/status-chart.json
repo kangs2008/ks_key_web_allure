@@ -1,0 +1,11 @@
+[ {
+  "uid" : "ce260b475d7cbec3",
+  "name" : "test_web_ui[data0]",
+  "time" : {
+    "start" : 1635330359835,
+    "stop" : 1635330365119,
+    "duration" : 5284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

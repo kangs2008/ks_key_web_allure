@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login.py",
+    "children" : [ {
+      "name" : "t_接口测试<>test_login.xlsx",
+      "children" : [ {
+        "name" : "test_web_ui[data0]",
+        "uid" : "ce260b475d7cbec3",
+        "parentUid" : "f2f75413335bd51cb03a128b7c1b1cbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635330359835,
+          "stop" : 1635330365119,
+          "duration" : 5284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接口测试', 'file': 'test_login.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "f2f75413335bd51cb03a128b7c1b1cbc"
+    } ],
+    "uid" : "9536a5229993a36eedd94b7914e69cdc"
+  } ]
+}

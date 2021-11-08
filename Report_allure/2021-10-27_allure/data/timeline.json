@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-V8HO8M4",
+    "children" : [ {
+      "name" : "10176-MainThread",
+      "children" : [ {
+        "name" : "test_web_ui[data0]",
+        "uid" : "ce260b475d7cbec3",
+        "parentUid" : "4bd737af1de8fda42a12a428b1fa24c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635330359835,
+          "stop" : 1635330365119,
+          "duration" : 5284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接口测试', 'file': 'test_login.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "4bd737af1de8fda42a12a428b1fa24c2"
+    }, {
+      "name" : "6544-MainThread",
+      "children" : [ {
+        "name" : "test_web_ui[data0]",
+        "uid" : "3846358eaca6464c",
+        "parentUid" : "b9175d69d29f9ada084f44d72cfa6d78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635330168048,
+          "stop" : 1635330172993,
+          "duration" : 4945
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'sheetname': 't_接口测试', 'file': 'test_login.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}" ]
+      } ],
+      "uid" : "b9175d69d29f9ada084f44d72cfa6d78"
+    } ],
+    "uid" : "198725d75e10e48540c358e545372b07"
+  } ]
+}

@@ -9,5 +9,11 @@ from conftest import set_exec_ini
 set_exec_ini('exec', 'exec_sheet_name', 't_接口测试')
 
 pytest.main([])  # '--report','re2021'
+
+
+# cmd = 'copy environment.properties ./Report/environment.properties'
+# os.system(cmd)
+
+
 cmd = 'allure generate ./temp -o ./Report --clean'
 os.system(cmd)

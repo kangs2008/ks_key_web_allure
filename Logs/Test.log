@@ -467,3 +467,96 @@
 2021-09-28 21:21:45,740 LOG INFO conftest.py-61 line：------------------------
 2021-09-28 21:21:45,740 LOG INFO conftest.py-62 line：Usage time 0:00:10
 2021-09-28 21:21:45,740 LOG INFO conftest.py-63 line：------------------------
+2021-10-27 18:22:44,243 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-10-27]
+2021-10-27 18:22:44,253 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-10-27_allure
+2021-10-27 18:22:44,253 LOG INFO conftest.py-41 line：========== open browser ===========
+2021-10-27 18:22:48,047 LOG INFO test_login.py-29 line： 执行 test_login.py.TestWebUI.test_web_ui 测试套件Suite 
+2021-10-27 18:22:48,047 LOG INFO test_login.py-30 line： 执行 t_接口测试 测试用例Case 
+2021-10-27 18:22:48,047 LOG INFO test_login.py-31 line： 执行 {'sheetname': 't_接口测试', 'file': 'test_login.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-10-27 18:22:48,047 LOG INFO test_login.py-36 line：FILE SHEET： t_接口测试  FILE NAME： test_login.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx
+2021-10-27 18:22:48,047 LOG INFO test_login.py-94 line：test step1:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-10-27 18:22:48,103 LOG INFO basepage.py-153 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20211027 18:22:48.055/00.047s
+2021-10-27 18:22:48,717 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-22-48_news_link_loc.png TIME:20211027 18:22:48.167/00.549
+2021-10-27 18:22:48,717 LOG INFO basepage.py-410 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20211027 18:22:48.151/00.565
+2021-10-27 18:22:48,717 LOG INFO test_login.py-58 line：----"新闻" = func(*ps)----
+2021-10-27 18:22:48,717 LOG INFO test_login.py-60 line：----re_value = va["return_values"] = "news"----
+2021-10-27 18:22:48,717 LOG INFO test_login.py-62 line：----_dict["news"] = "新闻"----
+2021-10-27 18:22:48,717 LOG INFO test_login.py-94 line：test step2:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-10-27 18:22:48,787 LOG INFO basepage.py-153 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20211027 18:22:48.717/00.070s
+2021-10-27 18:22:49,426 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-22-49_search_text_loc.png TIME:20211027 18:22:49.120/00.306
+2021-10-27 18:22:49,426 LOG INFO basepage.py-303 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20211027 18:22:48.827/00.598s
+2021-10-27 18:22:49,456 LOG INFO basepage.py-153 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20211027 18:22:49.426/00.029s
+2021-10-27 18:22:52,992 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-22-49_search_btn_loc.png TIME:20211027 18:22:49.562/03.430
+2021-10-27 18:22:52,992 LOG INFO basepage.py-373 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20211027 18:22:49.476/03.516s
+2021-10-27 18:22:52,992 LOG INFO test_login.py-58 line：----"None" = func(*ps)----
+2021-10-27 18:22:52,992 LOG INFO test_login.py-94 line：test step3:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-10-27 18:22:52,992 LOG INFO test_login.py-53 line：----<bound method BasePage.assert_equal of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x0000020D503AD248>>----
+2021-10-27 18:22:52,992 LOG INFO test_login.py-54 line：----func("新闻", "新闻")----
+2021-10-27 18:22:52,992 LOG INFO basepage.py-25 line：[assert_equal]actual:新闻 / expect:新闻
+2021-10-27 18:22:56,462 LOG INFO conftest.py-48 line：========== close browser ===========
+2021-10-27 18:22:57,201 LOG INFO conftest.py-56 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-10-27_allure
+2021-10-27 18:22:57,209 LOG INFO conftest.py-61 line：------------------------
+2021-10-27 18:22:57,209 LOG INFO conftest.py-62 line：Usage time 0:00:12
+2021-10-27 18:22:57,209 LOG INFO conftest.py-63 line：------------------------
+2021-10-27 18:25:53,386 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-10-27]
+2021-10-27 18:25:53,386 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-10-27_allure
+2021-10-27 18:25:53,386 LOG INFO conftest.py-41 line：========== open browser ===========
+2021-10-27 18:25:59,835 LOG INFO test_login.py-29 line： 执行 test_login.py.TestWebUI.test_web_ui 测试套件Suite 
+2021-10-27 18:25:59,835 LOG INFO test_login.py-30 line： 执行 t_接口测试 测试用例Case 
+2021-10-27 18:25:59,835 LOG INFO test_login.py-31 line： 执行 {'sheetname': 't_接口测试', 'file': 'test_login.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-10-27 18:25:59,835 LOG INFO test_login.py-36 line：FILE SHEET： t_接口测试  FILE NAME： test_login.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx
+2021-10-27 18:25:59,835 LOG INFO test_login.py-94 line：test step1:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-10-27 18:25:59,939 LOG INFO basepage.py-153 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20211027 18:25:59.835/00.104s
+2021-10-27 18:26:00,352 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-26-00_news_link_loc.png TIME:20211027 18:26:00.019/00.332
+2021-10-27 18:26:00,352 LOG INFO basepage.py-410 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20211027 18:25:59.987/00.364
+2021-10-27 18:26:00,352 LOG INFO test_login.py-58 line：----"新闻" = func(*ps)----
+2021-10-27 18:26:00,352 LOG INFO test_login.py-60 line：----re_value = va["return_values"] = "news"----
+2021-10-27 18:26:00,352 LOG INFO test_login.py-62 line：----_dict["news"] = "新闻"----
+2021-10-27 18:26:00,362 LOG INFO test_login.py-94 line：test step2:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-10-27 18:26:00,382 LOG INFO basepage.py-153 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20211027 18:26:00.362/00.020s
+2021-10-27 18:26:00,951 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-26-00_search_text_loc.png TIME:20211027 18:26:00.592/00.359
+2021-10-27 18:26:00,951 LOG INFO basepage.py-303 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20211027 18:26:00.412/00.539s
+2021-10-27 18:26:00,981 LOG INFO basepage.py-153 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20211027 18:26:00.951/00.030s
+2021-10-27 18:26:05,118 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-26-01_search_btn_loc.png TIME:20211027 18:26:01.141/03.977
+2021-10-27 18:26:05,118 LOG INFO basepage.py-373 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20211027 18:26:01.011/04.106s
+2021-10-27 18:26:05,118 LOG INFO test_login.py-58 line：----"None" = func(*ps)----
+2021-10-27 18:26:05,118 LOG INFO test_login.py-94 line：test step3:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-10-27 18:26:05,118 LOG INFO test_login.py-53 line：----<bound method BasePage.assert_equal of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x000002057D2A1CC8>>----
+2021-10-27 18:26:05,118 LOG INFO test_login.py-54 line：----func("新闻", "新闻")----
+2021-10-27 18:26:05,118 LOG INFO basepage.py-25 line：[assert_equal]actual:新闻 / expect:新闻
+2021-10-27 18:26:09,115 LOG INFO conftest.py-48 line：========== close browser ===========
+2021-10-27 18:26:09,615 LOG INFO conftest.py-56 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-10-27_allure
+2021-10-27 18:26:09,615 LOG INFO conftest.py-61 line：------------------------
+2021-10-27 18:26:09,615 LOG INFO conftest.py-62 line：Usage time 0:00:16
+2021-10-27 18:26:09,615 LOG INFO conftest.py-63 line：------------------------
+2021-10-27 18:30:21,000 LOG INFO conftest.py-45 line：custom addopts for the report folder:[report],param[--report],value[2021-10-27]
+2021-10-27 18:30:21,000 LOG INFO conftest.py-46 line：the report folder:D:\desk20201127\ks_key_web_allure\Report_allure\2021-10-27_allure
+2021-10-27 18:30:21,000 LOG INFO conftest.py-41 line：========== open browser ===========
+2021-10-27 18:30:25,077 LOG INFO test_login.py-29 line： 执行 test_login.py.TestWebUI.test_web_ui 测试套件Suite 
+2021-10-27 18:30:25,077 LOG INFO test_login.py-30 line： 执行 t_接口测试 测试用例Case 
+2021-10-27 18:30:25,077 LOG INFO test_login.py-31 line： 执行 {'sheetname': 't_接口测试', 'file': 'test_login.xlsx', 'filepath': 'D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx', 'filesheet': [{'num': '1', 'exec': '1', 'title': '标题', 'page': 'baidu_page', 'method': 'get_news_text', 'parameter': '', 'return_values': 'news', 'expect': '', 'capture': '1'}, {'num': '2', 'exec': '2', 'title': '首页检索', 'page': 'baidu_page', 'method': 'search', 'parameter': 'python', 'return_values': '', 'expect': '', 'capture': '1'}, {'num': '3', 'exec': '3', 'title': '', 'page': '', 'method': 'assert_equal', 'parameter': 'news', 'return_values': '', 'expect': '新闻', 'capture': '1'}]}
+2021-10-27 18:30:25,077 LOG INFO test_login.py-36 line：FILE SHEET： t_接口测试  FILE NAME： test_login.xlsx  FILE PATH： D:/desk20201127/ks_key_web_allure/TestCases/login/test_login.xlsx
+2021-10-27 18:30:25,077 LOG INFO test_login.py-94 line：test step1:【title:[标题], page:[baidu_page], method:[get_news_text], parameter:[], return_values:[news], expect:[], capture:[1]】
+2021-10-27 18:30:25,164 LOG INFO basepage.py-153 line：[BaiduPage.get_news_text]<wait_ele_to_visible><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')> TIME:20211027 18:30:25.077/00.087s
+2021-10-27 18:30:25,583 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-30-25_news_link_loc.png TIME:20211027 18:30:25.255/00.327
+2021-10-27 18:30:25,583 LOG INFO basepage.py-410 line：[BaiduPage.get_news_text]<get_ele_text><news_link_loc|新闻>locator<('xpath', '//*[@id="s-top-left"]/a[1]')>value:[新闻] TIME:20211027 18:30:25.215/00.367
+2021-10-27 18:30:25,583 LOG INFO test_login.py-58 line：----"新闻" = func(*ps)----
+2021-10-27 18:30:25,583 LOG INFO test_login.py-60 line：----re_value = va["return_values"] = "news"----
+2021-10-27 18:30:25,583 LOG INFO test_login.py-62 line：----_dict["news"] = "新闻"----
+2021-10-27 18:30:25,583 LOG INFO test_login.py-94 line：test step2:【title:[首页检索], page:[baidu_page], method:[search], parameter:[python], return_values:[], expect:[], capture:[1]】
+2021-10-27 18:30:25,607 LOG INFO basepage.py-153 line：[BaiduPage.text_input]<wait_ele_to_visible><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')> TIME:20211027 18:30:25.583/00.023s
+2021-10-27 18:30:26,207 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-30-25_search_text_loc.png TIME:20211027 18:30:25.815/00.391
+2021-10-27 18:30:26,207 LOG INFO basepage.py-303 line：[BaiduPage.text_input]<input_text><search_text_loc|首页输入框>locator<('xpath', '//*[@id="kw"]')>input<python> TIME:20211027 18:30:25.631/00.575s
+2021-10-27 18:30:26,231 LOG INFO basepage.py-153 line：[BaiduPage.search_btn]<wait_ele_to_visible><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20211027 18:30:26.207/00.023s
+2021-10-27 18:30:29,780 LOG INFO basepage.py-92 line：[save_capture_paint]ks_key_web_allure\PIC\2021-10-27_18-30-26_search_btn_loc.png TIME:20211027 18:30:26.337/03.442
+2021-10-27 18:30:29,780 LOG INFO basepage.py-373 line：[BaiduPage.search_btn]<click_ele><search_btn_loc|百度一下>locator<('xpath', '//*[@id="su"]')> TIME:20211027 18:30:26.255/03.524s
+2021-10-27 18:30:29,780 LOG INFO test_login.py-58 line：----"None" = func(*ps)----
+2021-10-27 18:30:29,780 LOG INFO test_login.py-94 line：test step3:【title:[], page:[], method:[assert_equal], parameter:[news], return_values:[], expect:[新闻], capture:[1]】
+2021-10-27 18:30:29,780 LOG INFO test_login.py-53 line：----<bound method BasePage.assert_equal of <Pages.BaiduPage.baidu_page.BaiduPage object at 0x0000013C90D6BD88>>----
+2021-10-27 18:30:29,780 LOG INFO test_login.py-54 line：----func("新闻", "新闻")----
+2021-10-27 18:30:29,780 LOG INFO basepage.py-25 line：[assert_equal]actual:新闻 / expect:新闻
+2021-10-27 18:30:32,273 LOG INFO conftest.py-48 line：========== close browser ===========
+2021-10-27 18:30:32,544 LOG INFO conftest.py-56 line：file_and_folder_copy:D:\desk20201127\ks_key_web_allure\Report_allure\2021-10-27_allure
+2021-10-27 18:30:32,544 LOG INFO conftest.py-61 line：------------------------
+2021-10-27 18:30:32,544 LOG INFO conftest.py-62 line：Usage time 0:00:11
+2021-10-27 18:30:32,544 LOG INFO conftest.py-63 line：------------------------

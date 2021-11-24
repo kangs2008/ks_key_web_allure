@@ -50,7 +50,7 @@ class Handle_excel():
             res = re.findall(pattern, str(para)) # ${aa}
             if res:
                 for r in res:
-                    if r in key:
+                    if r == key:
                         para = para.replace('${' + r + '}', str(dict_kv.get(r, r)))
                 # para = [para.replace('{' + r + '}', str(dict_kv.get(r, r))) for r in enumerate(res) if r == key]
         return para
@@ -145,11 +145,11 @@ class Handle_excel():
             for row in range(2, maxRowNum + 1):
                 execvalue = exec_value_list[row - 2]
                 if execvalue == exec_type.lower():
-                        key = sheet_config.cell(row, 1).value
-                        value = sheet_config.cell(row, 2).value
-                        if value is None:
-                            value = ''
-                            tempdict[key] = value
+                    key = sheet_config.cell(row, 1).value
+                    value = sheet_config.cell(row, 2).value
+                    if value is None:
+                        value = ''
+                    tempdict[key] = value
         return tempdict
 
     def get_exec_kvList_from_sheet_re(self, sheet, multiList=[], exec_value='exec', exec_type='y'):
@@ -174,44 +174,46 @@ class Handle_excel():
 
                         if value is None:
                             value = ''
-                        if isinstance(multiList, list):
-                            if len(multiList) != 0:
-
-                                for one in multiList:
-                                    if one == '':
-                                        tempdict[title_value] = value
-                                    else:
-                                        _sheet = self.get_sheet_by_name(one)
-                                        _dict = self.get_exec_dict_from_sheet(_sheet, exec_value, exec_type)
-                                        change_value = self.get_re_parameter_sheet(_dict, value)
-                                        tempdict[title_value] = change_value
-                                        value = change_value
-                            else:
-                                tempdict[title_value] = value
+                            tempdict[title_value] = value
                         else:
-                            if multiList != '' or multiList != None:
-                                _sheet = self.get_sheet_by_name(multiList)
-                                _dict = self.get_exec_dict_from_sheet(_sheet, exec_value, exec_type)
-                                change_value = self.get_re_parameter_sheet(_dict, value)
-                                tempdict[title_value] = change_value
+                            if isinstance(multiList, list):
+                                if len(multiList) != 0:
+
+                                    for one in multiList:
+                                        if one == '':
+                                            tempdict[title_value] = value
+                                        else:
+                                            _sheet = self.get_sheet_by_name(one)
+                                            _dict = self.get_exec_dict_from_sheet(_sheet, exec_value, exec_type)
+                                            change_value = self.get_re_parameter(_dict, value)
+                                            tempdict[title_value] = change_value
+                                            value = change_value
+                                else:
+                                    tempdict[title_value] = value
                             else:
-                                tempdict[title_value] = value
+                                if multiList != '' or multiList != None:
+                                    _sheet = self.get_sheet_by_name(multiList)
+                                    _dict = self.get_exec_dict_from_sheet(_sheet, exec_value, exec_type)
+                                    change_value = self.get_re_parameter(_dict, value)
+                                    tempdict[title_value] = change_value
+                                else:
+                                    tempdict[title_value] = value
 
                         if column == real_pos:
                             tempdict[title_value] = str(row - 1) # 1 2 3
                     sheetValues.append(tempdict)
         return sheetValues
-
-    def get_re_parameter_sheet(self, dict_kv, para):
-        pattern = r'[$][{](.*?)[}]'
-        para = str(para)
-        for val in dict_kv.values():
-            res = re.findall(pattern, str(para)) # ${aa}
-            if res:
-                for r in res:
-                    if r in para:
-                        para = para.replace('${' + r + '}', str(val))
-        return para
+    #
+    # def get_re_parameter_sheet(self, dict_kv, para):
+    #     pattern = r'[$][{](.*?)[}]'
+    #     para = str(para)
+    #     for val in dict_kv.values():
+    #         res = re.findall(pattern, str(para)) # ${aa}
+    #         if res:
+    #             for r in res:
+    #                 if r in para:
+    #                     para = para.replace('${' + r + '}', str(val))
+    #     return para
 
 
 
@@ -268,7 +270,7 @@ def check_input_sheet_name_in_excel(file_name, multiList=[]):
             else:
                 if one_sheet not in all_sheet_names:
                     print(
-                        f'Input sheet name "{multiList}" not in excel file, please check it. Excel file sheets:{all_sheet_names}')
+                        f'Input sheet name "{multiList}" not in excel file "{file_name}", please check it. Excel file sheets:{all_sheet_names}')
                     raise
     else:
         if multiList == '' or multiList == None:
@@ -276,7 +278,7 @@ def check_input_sheet_name_in_excel(file_name, multiList=[]):
         else:
             if multiList not in all_sheet_names:
                 print(
-                    f'Input sheet name "{multiList}" not in excel file, please check it. Excel file sheets:{all_sheet_names}')
+                    f'Input sheet name "{multiList}" not in excel file "{file_name}", please check it. Excel file sheets:{all_sheet_names}')
                 raise
 
 def excel_to_case_from_file(multifile, sheeet_name=[], multiList=[], sheet_name_rule='t_', exec_value='exec', exec_type='y'):
